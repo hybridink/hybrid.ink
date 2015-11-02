@@ -1,12 +1,12 @@
 # Site settings
-title: The Furry Experience
+title: Hybrid | Dispatches from the Furry Experience
 email: your-email@domain.com
 description: >
-  The Furry Experience is a nonfiction and poetry publication, highlighting
+  Hybrid is a nonfiction and poetry publication, highlighting
   what it means to be a furry in the modern subcommunity.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: thefurryexperience
+url: "http://hybrid.ink" # the base hostname & protocol for your site
+twitter_username: hybrid_ink
 
 # Build settings
 markdown: kramdown

@@ -7,6 +7,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hybrid.ink" # the base hostname & protocol for your site
 twitter_username: hybrid_ink
+permalink: pretty
 
 # Build settings
 markdown: kramdown

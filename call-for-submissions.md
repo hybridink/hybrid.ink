@@ -3,6 +3,8 @@ layout: page
 title: Call for Submissions
 ---
 
+Submissions are currently closed, but below is provided our standard call for reference.
+
 ## Non-fiction
 * 1000-5000 words - longer will be considered based on their merit
 Opinion or article

@@ -7,7 +7,7 @@ Submissions are currently closed, but below is provided our standard call for re
 
 ## Non-fiction
 * 1000-5000 words - longer will be considered based on their merit
-Opinion or article
+* Opinion or article
 * 10-15 count
 * We are looking for diverse nonfiction writing about the furry fandom, either opinion or articles, written in a clear, concise fashion.  Be prepared to show your sources if you cite them, to enter into intelligent discourse surrounding your topic, and to offer insight to other members of our fandom that you have uncovered through your work.  Submissions should fit the general theme of the volume to be published.
 * To avoid getting a lot of similar articles, we encourage people to think outside of the box and be creative with their opinions. We don’t want 90% of what we get to all be the same type of article.

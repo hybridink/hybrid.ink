@@ -13,9 +13,12 @@
 }
 
 .site-title {
-    width: 150px;
     height: 150px;
     float: left;
+
+    img {
+        height: 148px;
+    }
 }
 
 .site-nav {

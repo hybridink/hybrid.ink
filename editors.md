@@ -5,30 +5,30 @@ title: Editors
 
 ## C. W. Euwyn
 
-*Nonfiction*
+[@CWEuwyn](https://twitter.com/CWEuwyn) *Nonfiction*
 
 C. W. Euwyn is a member of the Furry Writers' Guild and an author.
 
 ## Makyo
 
-*Nonfiction*
+[@drab_makyo](https://twitter.com/drab_makyo) *Nonfiction*
 
 Makyo is a member of the Furry Writers' Guild and the editor-in-chief of [\[adjective\]\[species\]](http://adjectivespecies.com).
 
 ## George Squares
 
-*Nonfiction, interviews, and poetry*
+[@GeorgeSquares](https://twitter.com/GeorgeSquares) *Nonfiction, interviews, and poetry*
 
 George Squares is a member of the Furry Writers' Guild and an author.
 
 ## Televassi
 
-*Nonfiction and poetry*
+[@Televassi](https://twitter.com/televassi) *Nonfiction and poetry*
 
 Televassi is a member of the Furry Writers' Guild and an author.
 
 ## Lunostophiles
 
-*Poetry*
+[@Lunostophiles](https://twitter.com/lunostophiles) *Poetry*
 
 Lunosophiles is a poet and editor.

@@ -159,6 +159,16 @@
 /**
  * Page content
  */
+.announcement {
+    font-family: $base-font-family;
+    border: 1px solid #bcdff1;
+    border-radius: 0.25rem;
+    background-color: #d9edf7;
+    color: #31708f;
+    padding: 0.75em 1em;
+    margin-bottom: 1em;
+}
+
 .page-content {
     padding: $spacing-unit 0;
     font-family: 'Playfair Display', serif;
@@ -169,11 +179,12 @@
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    background-color: $grey-color-light;
+    &:nth-of-type(odd) {
+        background-color: $grey-color-light + #0a0a0a;
     }
 }
 
@@ -183,8 +194,24 @@
 }
 
 .post-link {
+    color: $grey-color-dark;
+    &:active, &:hover, &:visited {
+        color: $grey-color-dark;
+    }
     display: block;
     font-size: 24px;
+}
+
+.deadline-passed {
+    text-decoration: line-through;
+}
+
+.next-opening {
+    color: $grey-color-dark + #666;
+}
+
+.not-yet-applicable {
+    color: $grey-color-dark + #888;
 }
 
 

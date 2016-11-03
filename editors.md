@@ -1,34 +1,14 @@
 ---
 layout: page
-title: Editors
+title: Editor
 ---
 
-## C. W. Euwyn
+## Madison "Makyo" Scott-Clary
 
-[@CWEuwyn](https://twitter.com/CWEuwyn) *Nonfiction*
+Madison is a member of the Furry Writers' Guild and the editor-in-chief of [\[adjective\]\[species\]](http://adjectivespecies.com).  She has been investigating and writing about the furry subculture for more than six years, focusing primarily on the data provided by the various fandom-wide surveys as well as on interviews and introspection.  As the \[a\]\[s\] project shifted focus to primarily data, Hybrid was started up as a means of maintaining a source of introspection and personal writing about members of the subculture.  It is her hope that the more structured format of Hybrid will provide greater incentive to writers and poets throughout the fandom.
 
-C. W. Euwyn is a member of the Furry Writers' Guild and an author.
+She lives in Loveland with her two dogs and her husband, who is also a dog.
 
-## Makyo
-
-[@drab_makyo](https://twitter.com/drab_makyo) *Nonfiction*
-
-Makyo is a member of the Furry Writers' Guild and the editor-in-chief of [\[adjective\]\[species\]](http://adjectivespecies.com).
-
-## George Squares
-
-[@GeorgeSquares](https://twitter.com/GeorgeSquares) *Nonfiction, interviews, and poetry*
-
-George Squares is a member of the Furry Writers' Guild and an author.
-
-## Televassi
-
-[@Televassi](https://twitter.com/televassi) *Nonfiction and poetry*
-
-Televassi is a member of the Furry Writers' Guild and an author.
-
-## Lunostophiles
-
-[@Lunostophiles](https://twitter.com/lunostophiles) *Poetry*
-
-Lunosophiles is a poet and editor.
+<div class="announcement">
+    Interested in helping edit?  Hit us up over email/twitter!
+</div>

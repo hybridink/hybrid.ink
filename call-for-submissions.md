@@ -6,7 +6,7 @@ title: Call for Submissions
 Submissions are currently closed, but below is provided our standard call for reference.
 
 ## Non-fiction
-* 1000-5000 words - longer will be considered based on their merit
+* 2000-10000 words - longer or shorter submissions will be considered based on their merit
 * Opinion or article
 * 10-15 count
 * We are looking for diverse nonfiction writing about the furry fandom, either opinion or articles, written in a clear, concise fashion.  Be prepared to show your sources if you cite them, to enter into intelligent discourse surrounding your topic, and to offer insight to other members of our fandom that you have uncovered through your work.  Submissions should fit the general theme of the volume to be published.
@@ -20,14 +20,17 @@ Submissions are currently closed, but below is provided our standard call for re
 
 ## Theme
 * Volume 1: Why are you a furry?  Why are others furries?  Where do we come from?  Reflections on what elements of socialisation led us to become the subculture that we are today.
+* <span class="next-opening">Volume 2: Gender and Sexuality, Identity and Interest.  It's one thing to list *what* you are interested in, but it's another altogether to explore why.  How does furry play into your gender identity and sexual orientation?  How does it influence how you view yourself and the things that you enjoy?</span>
+* <span class="not-yet-applicable">Volume 3: Creators and Creations.  What drives us as furries to create what we do, at the rate we do, and at the prices we charge?  What drives commissions, trends, and styles?  How does our participation in furry color the creator-creation relationship?</span>
+* <span class="not-yet-applicable">Volume 4: Past and Future.  Where did furry come from, and where is it going?  How fast are we moving, and how much are we staying the same?  Are our drives conservative or liberal, or if they're a mix, why is that the case?</span>
 
 ## When
-* (some date in the future)
+* March 31, 2017
 
 ## How
-* Email
+* [Email](hybrid@adjectivespecies.com)
 * Multiple submissions: yes, but one per email.  No more than 5 per category.
-* Prior publishing allowed: yes - though original work will be given priority
+* Prior publishing allowed: yes - though original work will be given priority.
 
 ## How much
-* &frac12; cent/word for nonfiction, flat $20 for poetry
+* 1 cent/word for nonfiction, flat $20 for poetry

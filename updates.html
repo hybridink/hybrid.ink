@@ -3,17 +3,12 @@ layout: default
 title: Updates
 ---
 
-<ul class="post-list">
 {% for post in site.posts %}
-  <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
-    <p>{{post.excerpt}}
-  </li>
+<div class="post-list">
+    <p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+    <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+</div>
 {% endfor %}
-</ul>
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

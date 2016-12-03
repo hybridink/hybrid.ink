@@ -6,20 +6,33 @@
 
         <nav class="site-nav">
             <div class="page-link trigger">
-                About <span class="caret"></span><input type="checkbox" id="trigger-about" onchange="toggleOther(event, 'trigger-read')" />
+                <span class="button">About <span class="caret"></span></span>
+                <input type="checkbox" id="trigger-about" onchange="toggleOther(event, 'trigger-read')" />
                 <ul>
                     <li><a href="/updates">Updates</a></li>
                     <li><a href="/editors">Editors</a></li>
                 </ul>
             </div>
-            <!--<div class="page-link trigger">
-                Read <span class="caret"></span><input type="checkbox" id="trigger-read" onchange="toggleOther(event, 'trigger-about')" />
+            <!-- <div class="page-link trigger">
+                <span class="button">Read <span class="caret"></span></span>
+                <input type="checkbox" id="trigger-read" onchange="toggleOther(event, 'trigger-about')" />
                 <ul>
                     <li><a href="{{ site.current_issue }}">Current Issue</a></li>
                     <li class="separator"></li>
-                    <li><a href="/vol/1/issue/1">Vol. 1, No. 1</a></li>
+                    <li><a href="/vol/1">Vol. 1</a>
+                        <ul>
+                            <li><a href="/vol/1/issue/1">No. 1</a></li>
+                            <li><a href="/vol/1/issue/2">No. 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/vol/2">Vol. 2</a>
+                        <ul>
+                            <li><a href="/vol/2/issue/1">No. 1</a></li>
+                            <li><a href="/vol/2/issue/2">No. 2</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </div>-->
+            </div> -->
             <a class="page-link" href="/write">Write</a>
         </nav>
 

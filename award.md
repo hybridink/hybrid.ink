@@ -90,7 +90,7 @@ On the first of April in a publicly viewable ceremony, the awards will be presen
 
 Any creator may opt out of being eligible for an award.
 
-* Madison "Makyo" Scott-Clary has opted out of award eligibility.
+* Madison "Makyo" Scott-Clary has opted out of award consideration.
 
 -----
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Hybrid Award
+title: The <span class="brand">Hybrid</span> Award
 ---
 
 For many years, non-fiction played a relatively small part within the furry community. There would be an article here or there that someone would write and post somewhere, but the focus of many members of the subculture was on creative works of fiction. Art, both written and visual, focused primarily on the furry characters themselves.

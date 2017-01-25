@@ -18,7 +18,7 @@ The <span class="brand">Hybrid</span> award is presented in five categories. All
 The award for recognition in the area of non-fiction articles is presented to showcase a particular article --- whether it's for a blog, as part of an anthology, or posted to a wider site --- which explores the furry subculture, either as a whole or restricted to a particular aspect of it.
 
 Wordcount
-:   0-25,000 words.
+:   0-25,000 words.[^wordcount]
 
 Accessibility
 :   Posted publicly or published in a publicly available source (book, magazine, journal, etc).
@@ -28,7 +28,7 @@ Accessibility
 The award for recognition in the area of non-fiction books is presented to showcase a book dedicated to exploring the furry fandom, as a whole or in one aspect, which was published either inside or outside the fandom.
 
 Wordcount
-:   25,000+ words.
+:   25,000+ words.[^wordcount]
 
 Content
 :   The award should nominate a book, which may be an anthology or a single author book. Either way, the book should have a unifying them revolving around the furry subculture.
@@ -87,3 +87,5 @@ On the first of April in a publicly viewable ceremony, the awards will be presen
 Any creator may opt out of being eligible for an award.
 
 * Madison "Makyo" Scott-Clary has opted out of award eligibility.
+
+[^wordcount]: This is flexible, and the distinction between article and book is more a matter of the scope of content: an article (usually) explores a single facet of a single topic, whereas a book is far broader in scope, and may cover several related topics.

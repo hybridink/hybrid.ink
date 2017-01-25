@@ -76,7 +76,7 @@ Anyone may submit a recommendation for a non-fiction work in any of the above ca
 
 ### Nomination
 
-After the recommendation period ends, the collected recommendations are provided to a jury for nomination. Voting takes place through a ranked voting system, with each juror being able to vote their preference using up to five votes per category, which will provide a winner and a runner-up. This process will take place from the first of March to the end of March. Jurors may not vote on their own works.
+After the recommendation period ends, the collected recommendations are provided to a jury for nomination. Voting takes place through a ranked voting system, with each juror being able to vote their preference using up to five votes per category. The jury votes will provide a winner and a runner-up. This process will take place from the first of March to the end of March. Jurors may not vote on their own works.
 
 ### Awarding
 

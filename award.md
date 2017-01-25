@@ -3,6 +3,10 @@ layout: page
 title: The <span class="brand">Hybrid</span> Award
 ---
 
+<div class="announcement">
+    This is a proof-of-concept for a non-fiction award. The format, the process, and whether or not <span class="brand">Hybrid</span> winds up running this award is to be determined.
+</div>
+
 For many years, non-fiction played a relatively small part within the furry community. There would be an article here or there that someone would write and post somewhere, but the focus of many members of the subculture was on creative works of fiction. Art, both written and visual, focused primarily on the furry characters themselves.
 
 This made sense, too, as the characters were the reason why so many of the members joined the community. However, as time has gone on and the subculture has grown more and more complex and variegated in the ways in which we interact with it, so too have the number of non-fiction words exploring the hows and whys.

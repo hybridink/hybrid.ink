@@ -15,7 +15,7 @@ To this end, The <span class="brand">Hybrid</span> Award for Excellence in Furry
 
 ## Award Categories
 
-The <span class="brand">Hybrid</span> award is presented in five categories. All categories require that a work be available in a public fashion (that is, anyone should be able to view, download, purchase, or otherwise access the content, with no limits on who). Additionally, all categories are open to works created outside the fandom as well as in.
+The <span class="brand">Hybrid</span> award is presented in five categories. All categories require that a work be available in a public fashion (that is, anyone should be able to view, download, purchase, or otherwise access the content, with no limits on who[^signups]). Additionally, all categories are open to works created outside the fandom as well as in.
 
 ### Article
 
@@ -88,10 +88,12 @@ On the first of April in a publicly viewable ceremony, the awards will be presen
 
 ## Withdrawals
 
-Any creator may opt out of being eligible for an award.
+Any creator may opt out of being considered for an award.
 
 * Madison "Makyo" Scott-Clary has opted out of award consideration.
 
 -----
+
+[^signups]: Signing up to a website doesn't count as a restriction; by this we mean only members of a group or organization are allowed to access the resource.
 
 [^wordcount]: This is flexible, and the distinction between article and book is more a matter of the scope of content: an article (usually) explores a single facet of a single topic, whereas a book is far broader in scope, and may cover several related topics.

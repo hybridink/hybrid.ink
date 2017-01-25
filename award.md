@@ -88,4 +88,6 @@ Any creator may opt out of being eligible for an award.
 
 * Madison "Makyo" Scott-Clary has opted out of award eligibility.
 
+-----
+
 [^wordcount]: This is flexible, and the distinction between article and book is more a matter of the scope of content: an article (usually) explores a single facet of a single topic, whereas a book is far broader in scope, and may cover several related topics.

@@ -15,7 +15,7 @@ To this end, The <span class="brand">Hybrid</span> Award for Excellence in Furry
 
 ## Award Categories
 
-The <span class="brand">Hybrid</span> award is presented in five categories. All categories require that a work be available in a public fashion (that is, anyone should be able to view, download, purchase, or otherwise access the book, with no limits on who). Additionally, all categories are open to works created outside the fandom as well as in.
+The <span class="brand">Hybrid</span> award is presented in five categories. All categories require that a work be available in a public fashion (that is, anyone should be able to view, download, purchase, or otherwise access the content, with no limits on who). Additionally, all categories are open to works created outside the fandom as well as in.
 
 ### Article
 

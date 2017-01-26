@@ -7,7 +7,7 @@ Here's all the fine print and rules. The award process involves four steps: jury
 
 <svg width="100%" viewbox="0 0 620 200">
     <!-- timeline -->
-    <line x1="10" y1="100" x2="610" y2="100" stroke="black" />
+    <line x1="10" y1="100" x2="610" y2="100" stroke="black" stroke-dasharray="5 5 5 5 5 5 10 5 500 5 10 5 5 5 5 5 " />
 
     <!-- months -->
     <text x="10" y="90" transform="rotate(-90 10 90)" fill="#888"
@@ -35,12 +35,16 @@ Here's all the fine print and rules. The award process involves four steps: jury
     <circle cx="610" cy="100" r="5" fill="#888" />
 
     <!-- section markers -->
-    <path d="M 110 110 L 110 125 L 405 125 L 405 110 M 260 125 l 0 10
+    <path d="M 110 110 L 110 115 L 210 115 L 210 110 M 160 115 l 0 5
+             M 110 150 L 110 155 L 405 155 L 405 110 M 260 155 l 0 10
              M 410 110 L 410 125 L 505 125 L 505 110 M 460 125 l 0 45
              M 510 110 l 0 25" stroke="black" fill="none" />
 
     <!-- section labels -->
-    <text x="260" y="140" text-anchor="middle" dominant-baseline="hanging">
+    <text x="160" y="122" text-anchor="middle" dominant-baseline="hanging">
+        Jury selection
+    </text>
+    <text x="260" y="170" text-anchor="middle" dominant-baseline="hanging">
         Recommendation period
     </text>
     <text x="460" y="170" text-anchor="middle" dominant-baseline="hanging">
@@ -55,6 +59,8 @@ Here's all the fine print and rules. The award process involves four steps: jury
 
 * Jurors will be chosen from a pool of applicants and invitees and made public.
 * The selection process will be made public and posted by the first of December.
+* Jurors will be chosen by the thirty-first of December.
+* The jury will consist of at least five members, and optionally include the chair of the award.
 
 ## Recommendation
 

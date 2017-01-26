@@ -7,7 +7,7 @@ Here's all the fine print and rules. The award process involves four steps: jury
 
 <svg width="100%" viewbox="0 0 620 200">
     <!-- timeline -->
-    <line x1="10" y1="100" x2="610" y2="100" stroke="black" stroke-dasharray="5 5 5 5 5 5 10 5 500 5 10 5 5 5 5 5 " />
+    <line x1="10" y1="100" x2="610" y2="100" stroke="black" stroke-dasharray="5 5 5 5 5 5 5 5 10 5 490 5 10 5 5 5 5 5 " />
 
     <!-- months -->
     <text x="10" y="90" transform="rotate(-90 10 90)" fill="#888"
@@ -64,12 +64,11 @@ Here's all the fine print and rules. The award process involves four steps: jury
 
 ## Recommendation
 
-* Anyone may submit a recommendation for a non-fiction work in any of the above categories through a simple web form.
+* Anyone may submit a recommendation for a non-fiction work, including their own, in any of the award categories through a simple web form.
 * An eligible work must have been published between the January first and December thirty-first of the award year.
-* For entries that span years such as those in the platform, publisher, or channel category, each entry is only eligible to win the category once; after that, it is ineligible for entry.
+* For entries that span years such as those in the platform, publisher, or channel category, or podcasts and video series, each entry is only eligible to win the category once; after that, it is ineligible for entry.
 * This process will take place from the first of December through the end of February.
 * If a category gains fewer than three recommendations, there will be no award for the category.
-* Anyone may recommend a work, even their own.
 
 ## Nomination
 
@@ -90,3 +89,64 @@ Here's all the fine print and rules. The award process involves four steps: jury
 * All ranked nominations will be recognized, with the top ranked nomination winning the category.
 * Ties are allowed.
 * The award for the first year will be a certificate and recognition on [Hybrid](/){: class="brand" }.
+
+## Category Restrictions
+
+All categories require that a work be available in a public fashion (that is, anyone should be able to view, download, purchase, or otherwise access the content, with no limits on who[^signups]). Additionally, all categories are open to works created outside the fandom as well as in.
+
+### Article category
+
+Wordcount
+:   0-25,000 words.[^wordcount]
+
+Accessibility
+:   Posted publicly or published in a publicly available source (book, magazine, journal, etc). Articles may be posted on a website, self-published, or published through an organization, but must be dated.
+
+### Book category
+
+Wordcount
+:   25,000+ words.[^wordcount]
+
+Content
+:   The award should nominate a book, which may be an anthology or a single author book. Either way, the book should have a unifying them revolving around the furry subculture.
+
+Accessibility
+:   Published in a publicly available fashion (hard copy or e-book, purchasable through means accessible to the average book-buyer). Books may be published through a publisher or self-published, but must be dated. E-books may be a single file such as an EPub or PDF file, or may be broken into separate files such as different HTML pages for each chapter.
+
+### Video category
+
+Content
+:   The award should nominate a video, a video series, or a movie. There is no restriction on the content of the video (e.g: live action, animated, a lecture, etc.) other than it revolve around the furry subculture.
+
+Accessibility
+:   The video should be accessible in a public fashion and must be dated. There is no restriction placed on distribution mechanism (e.g: YouTube, Vimeo, personal site, DVD, etc.). Videos maybe streaming, downloadable, or on a physical medium.
+
+### Audio category
+
+Content
+:   The award should nominate an audio recording such as a podcast, an audio-reading of a non-fiction work, or an audio lecture that revolves around the furry subculture.
+
+Accessibility
+:   The audio work should be accessible in a public fashion and must be dated. There is no restriction placed on distribution mechanism, such as podcast, audiobook distributor, direct download, or physical medium.
+
+### Platform, publisher, or channel category
+
+Content
+:   The award should nominate a platform, publisher, or channel that revolves around the furry subculture[^platforms].
+
+Accessibility
+:   The platform, publisher, or channel should be accessible in a public fashion. There is no restriction placed on distribution mechanism or medium. There is no date requirement, other than that the platform, publisher, or channel must be active at nomination time.
+
+### Other category
+
+Content
+:   The award should nominate a work of non-fiction not otherwise covered. This may include a website, a hypertextual article or resource (which doesn't fit under the platform category), a game, a comic, etc. The sky's the limit on this one. However, it should retain a focus on the furry subculture.
+
+Accessibility
+:   The work should be accessible in a public fashion. There is no restriction placed on distribution mechanism, such as a distribution platform like itch.io, a publisher for things such as comics, or a website. The work should be dated, if possible.
+
+[^signups]: Signing up to a website as a requirement to view a nomination doesn't count as a restriction; by this we mean that cases where only members of a group or organization are allowed to access the resource would be ineligible.
+
+[^wordcount]: This is flexible and intended only as a guide, as the distinction between article and book is more a matter of the scope of content: an article (usually) explores a single facet of a single topic, whereas a book is far broader in scope, and may cover several related topics. Longer articles and shorter books will, of course, be considered.
+
+[^platforms]:  This means the bit that does revolve around furry: yes, YouTube is a platform, but Culturally F'ed is the channel that is eligible). For a better example, an issue of <span class="brand">Hybrid</span> is eligible as a book (anthology type), an article in that issue is eligible as an article, but <span class="brand">Hybrid</span> is eligible as a platform, publisher, or channel.

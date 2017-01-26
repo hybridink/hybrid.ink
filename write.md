@@ -29,8 +29,7 @@ Submissions are currently closed, but below is provided our standard call for re
 
 ## When
 
-* Vol. 1, No. 1: *TBA*
-
+* Vol. 1, No. 1: *open* March 1, *close* September 1, *out* October 1.
 ## How
 
 Submitify link coming soon!

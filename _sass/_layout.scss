@@ -219,6 +219,13 @@
     margin-bottom: 1em;
 }
 
+h2.announcement {
+    display: block;
+    width: 5em;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .page-content {
     padding: $spacing-unit 0;
     font-family: $body-font-family;

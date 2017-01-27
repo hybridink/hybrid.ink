@@ -22,14 +22,26 @@ Submissions are currently closed, but below is provided our standard call for re
 
 ## Theme
 
-* **Hybrid**{: class="brand" } 1, no. 1 - Identities: Identity and Interest, Gender and Sexuality.  It's one thing to list *what* you are interested in, but it's another altogether to explore why.  How does furry play into your gender identity and sexual orientation?  How does it influence how you view yourself and the things that you enjoy?
-* <span class="next-opening">**Hybrid**{: class="brand" } 1, no. 2 - Origins: Why are you a furry?  Why are others furries?  Where do we come from?  Reflections on what elements of socialisation led us to become the subculture that we are today.</span>
-* <span class="not-yet-applicable">**Hybrid**{: class="brand" } 2, no. 1 - Creations: Creators and Creations.  What drives us as furries to create what we do, at the rate we do, and at the prices we charge?  What drives commissions, trends, and styles?  How does our participation in furry color the creator-creation relationship?</span>
-* <span class="not-yet-applicable">**Hybrid**{: class="brand" } 2, no. 2 - Time: Past and Future.  Where did furry come from, and where is it going?  How fast are we moving, and how much are we staying the same?  Are our drives conservative or liberal, or if they're a mix, why is that the case?</span>
+* <span class="brand">Hybrid</span> 1, no. 1 - Identities: Identity and Interest, Gender and Sexuality.  It's one thing to list *what* you are interested in, but it's another altogether to explore why.  How does furry play into your gender identity and sexual orientation?  How does it influence how you view yourself and the things that you enjoy?
+* <span class="next-opening"><span class="brand">Hybrid</span> 1, no. 2 - Origins: Why are you a furry?  Why are others furries?  Where do we come from?  Reflections on what elements of socialisation led us to become the subculture that we are today.</span>
+* <span class="not-yet-applicable"><span class="brand">Hybrid</span> 2, no. 1 - Creations: Creators and Creations.  What drives us as furries to create what we do, at the rate we do, and at the prices we charge?  What drives commissions, trends, and styles?  How does our participation in furry color the creator-creation relationship?</span>
+* <span class="not-yet-applicable"><span class="brand">Hybrid</span> 2, no. 2 - Time: Past and Future.  Where did furry come from, and where is it going?  How fast are we moving, and how much are we staying the same?  Are our drives conservative or liberal, or if they're a mix, why is that the case?</span>
 
 ## When
 
-* Vol. 1, No. 1: *open* March 1, *close* September 1, *out* October 1.
+<span class="brand">Hybrid</span> is released on a semiannual schedule. Issues come out on October 1st and April 1st, and open six months prior. The calls are open for five months, with one month dedicated to pulling together an issue. That means the schedule looks like such for each volume:
+
+Issue No. 1
+:  
+    * *Open:* March 1
+    * *Close:* September 1
+    * *Release:* October 1
+
+Issue No. 2
+:  
+    * *Open:* October 1
+    * *Close:* March 1
+    * *Release:* April 1
 
 ## How
 

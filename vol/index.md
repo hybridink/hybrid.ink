@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Hybrid Volumes
+title: <span class="brand">Hybrid</span> Volumes
 ---
 
-Here are the available volumes for **Hybrid**{: class="brand" }:
+Here are the available volumes for {{site.brand}}:
 
 * Vol. 1 - 2017:
     * No. 1 - Origins

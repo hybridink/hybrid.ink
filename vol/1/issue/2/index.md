@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hybrid 1, no. 2 - Identities
+title: <span class="brand">Hybrid</span> 1, no. 2 - Identities
 ---
 
 Coming soon!

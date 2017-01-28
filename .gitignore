@@ -1,2 +1,6 @@
 _site
 .sass-cache
+*.out
+*.log
+*.aux
+*.tox

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Hybrid Award Rules
+title: The <span class="brand">Hybrid</span> Award Rules
 ---
 
 Here's all the fine print and rules. The award process involves four steps: jury selection, recommendation, nomination, and awarding. The process itself should take four months to complete.
@@ -85,7 +85,7 @@ Here's all the fine print and rules. The award process involves four steps: jury
 
 ## Awarding
 
-* On the first of April in a publicly viewable ceremony, the awards will be presented by a member of the jury or the <span class="brand">Hybrid</span> Awards Chair.
+* On the first of April in a publicly viewable ceremony, the awards will be presented by a member of the jury or the {{site.brand}} Awards Chair.
 * All ranked nominations will be recognized, with the top ranked nomination winning the category.
 * Ties are allowed.
 * The award for the first year will be a certificate and recognition on [Hybrid](/){: class="brand" }.
@@ -149,4 +149,4 @@ Accessibility
 
 [^wordcount]: This is flexible and intended only as a guide, as the distinction between article and book is more a matter of the scope of content: an article (usually) explores a single facet of a single topic, whereas a book is far broader in scope, and may cover several related topics. Longer articles and shorter books will, of course, be considered.
 
-[^platforms]:  This means the bit that does revolve around furry: yes, YouTube is a platform, but Culturally F'ed is the channel that is eligible). For a better example, an issue of <span class="brand">Hybrid</span> is eligible as a book (anthology type), an article in that issue is eligible as an article, but <span class="brand">Hybrid</span> is eligible as a platform, publisher, or channel.
+[^platforms]:  This means the bit that does revolve around furry: yes, YouTube is a platform, but Culturally F'ed is the channel that is eligible). For a better example, an issue of {{site.brand}} is eligible as a book (anthology type), an article in that issue is eligible as an article, but {{site.brand}} is eligible as a platform, publisher, or channel.

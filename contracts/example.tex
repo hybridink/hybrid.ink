@@ -1,0 +1,84 @@
+\documentclass[12pt,letterpaper,oneside]{article}
+
+\usepackage[pdftex]{hyperref}
+\usepackage{graphicx}
+\usepackage[top=1in, bottom=1in, right=1in, left=1in]{geometry}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
+%%%%%
+% Variables to fill in on a per-contract basis
+
+\def\authorfirst{Madison}
+\def\authorlast{Scott-Clary}
+\def\worktitle{Gender: Furry}
+\def\worktype{non-fiction article}
+\def\workwords{9,764}
+\def\issue{volume 1, issue 1}
+\def\fee{\$48.82}
+\def\rate{one half of one cent per word at \workwords\ words}
+
+\begin{document}
+  \noindent\includegraphics[width=3.5in]{logo}
+
+  \vspace{.5in}
+
+  \today
+
+  \vspace{.5in}
+
+  AGREEMENT between [adjective][species], Ltd (``Publisher'') and \authorfirst\ \authorlast\ (``Author'').
+
+  The parties to this Agreement wish to publish the \worktype\ ``\worktitle'' (Work) in Hybrid \issue\ (``Publication''). The two parties agree as follows:
+
+  \begin{enumerate}
+    \item Author shall deliver a complete \worktype\ and work with Publisher on editing.
+    \item Author grants publisher perpetual, non-exclusive rights to publish Work in the Publication, which may be made available on the website \url{http://hybrid.ink} as well as in a print edition of the Publication or a compendium of such issues.
+    \item Author vows that the work is theirs and, to the best of their knowledge:
+    \begin{itemize}
+      \item Will not infringe on the personal rights of a third party, and
+      \item Will not give rise to claims in defamation, privacy, infringement of copyright or trademark, etc.
+    \end{itemize}
+    \item All rights to the Work not expressly granted to Publisher here will remain, always, with the Author.
+    \item Publisher will make no changes or alterations to the Work's without the Author’s permission, except as to fit the layout and stylistic demands of online and print publishing.
+    \item Publisher agrees to pay Author a sum of \fee\ (\rate) electronically through PayPal or Square payments.
+    \item Publisher and Author agree that the contract will be digitally signed by Author when they fill out the requested information and email the contract back to Publisher.
+    \item This Agreement reflects the entire understanding between the parties and it may not be changed except in writing signed by both of us.
+  \end{enumerate}
+
+  \newpage
+
+  When Author enters the information below and emails this contract back to Publisher, the parties agree that the contract is digitally signed:
+
+  \begin{Form}
+    \q{First Name}
+    \q{Last Name}
+    \q{Today's Date}
+    \q{Email}
+  \end{Form}
+
+  \hrule
+
+  \vspace{12pt}
+
+  \noindent \textit{Publisher:}
+
+  Hybrid --- an [adjective][species], Ltd project
+
+  Madison Jesse Scott-Clary, president
+
+  6216 Becker Ln.
+
+  Loveland, CO 80538
+
+  USA
+
+\end{document}

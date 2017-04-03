@@ -23,7 +23,12 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $grey-color-dark, rgba(0, 0, 0, 0));
+    margin: 1em 0;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm

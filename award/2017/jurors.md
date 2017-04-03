@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Editors
+title: Jurors
 ---
 
 ## Madison "Makyo" Scott-Clary
@@ -13,5 +13,5 @@ She lives in Loveland with her two dogs and her husband, who is also a dog.
 {: class="clearfix" }
 
 <div class="announcement">
-    Interested in helping edit?  Hit us up over email/twitter!
+    Interested in being a juror?  Hit us up over email/twitter!
 </div>

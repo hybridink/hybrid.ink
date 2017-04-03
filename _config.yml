@@ -2,13 +2,11 @@
 title: Hybrid | Dispatches from the Furry Subculture
 email: hybrid@adjectivespecies.com
 description: >
-  Hybrid is a nonfiction and poetry publication, highlighting
-  what it means to be a furry in the modern subcommunity.
+  Hybrid is an award recognizing excellence in furry nonfiction across all media.
 brand: '<span class="brand">Hybrid</span>'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hybrid.ink" # the base hostname & protocol for your site
 twitter_username: hybrid_ink
-current_issue: "/vol/1/issue/1"
 permalink: pretty
 
 # Build settings

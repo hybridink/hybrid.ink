@@ -43,4 +43,4 @@ For additional restrictions surrounding the categories, refer again to the [rule
 
 Any creator may opt out of being considered for an award for any of their creations. Additionally, any creator may withdraw any of their works from consideration on an individual basis.  Any withdrawals are noted below:
 
-*No withdrawals noted.*
+* \[adjective\]\[species\] is withdrawn from consideration in the platforms, publishers, or channels category.

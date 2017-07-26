@@ -3,13 +3,13 @@ layout: default
 ---
 
 <div class="hero">
-<h2>The {{site.brand}} Award</h2>
+<h2>{{site.name}}</h2>
 
-<p>{{site.brand}} is an award recognizing excellence in furry nonfiction across all media. Fiction, visual art, and even movies play a large role within the furry fandom, but non-fiction as a genre, spread across several media, is growing in prevalence.</p>
+<p>{{site.brand}} is a small publisher focused on thoughtful fiction and creative non-fiction. Our works take a look at identity, focus on characters that are learning about themselves, and investigate social interactions in a complicated world.</p>
 </div>
 
-<div class="col-60"><p>The goal of {{site.brand}} is to provide a well-versed and sophisticated look at works of non-fiction within the furry community, as seen through the eyes of those most deeply involved. As a juried award, nominees will be chosen from eligible productions within a set of categories, and winners chosen for each category by a jury of peers.</p></div>
-<div class="col-40"><h2 class="announcement"><a href="/award">Learn More</a></h2></div>
+<div class="col-60"><p>The goal of {{site.brand}} is to provide well-versed and sophisticated works of fiction and creative non-fiction. We want writing that leads to introspection, words that change the way we look at the world. {{site.brand}} is now open for novel and non-fiction book queries, and will be open soon for shorter works to be included in anthologies.</p></div>
+<div class="col-40"><h2 class="announcement"><a href="/submit">Learn More</a></h2></div>
 
 -----
 
@@ -17,7 +17,7 @@ layout: default
 {% for post in site.posts limit:5 %}
 <div class="post-list">
     <p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
-    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} &bullet; <a href="/admins#{{ post.author }}">{{ post.author }}</a>{% endif %}{% if post.meta %} &bullet; {{ post.meta }}{% endif %}</p>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} &bullet; <a href="/editors#{{ post.author }}">{{ post.author }}</a>{% endif %}{% if post.meta %} &bullet; {{ post.meta }}{% endif %}</p>
     <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
 </div>
 {% endfor %}

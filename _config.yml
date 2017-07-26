@@ -1,9 +1,11 @@
 # Site settings
-title: Hybrid | Recognizing Excellence in Furry Non-fiction
+title: Hybrid | Independent publishers of thoughtful writing
 email: hybrid@adjectivespecies.com
 description: >
-  Hybrid is an award recognizing excellence in furry nonfiction across all media.
-brand: '<span class="brand">Hybrid</span>'
+  Hybrid Ink is a small publisher focused on thoughtful fiction and creative non-fiction.
+brand: '<span class="brand upper">Hybrid</span>'
+name: '<span class="brand"><span class="upper">Hybrid</span> Ink</span>'
+company: '<span class="brand"><span class="upper">Hybrid</span> Ink, Ltd</span>'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hybrid.ink" # the base hostname & protocol for your site
 twitter_username: hybrid_ink

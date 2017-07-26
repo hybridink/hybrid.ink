@@ -226,9 +226,11 @@ h2.announcement {
 
 .brand {
     font-family: $base-font-family;
-    text-transform: uppercase;
 }
 
+.upper {
+    text-transform: uppercase;
+}
 
 
 /**

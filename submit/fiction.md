@@ -11,7 +11,7 @@ title: Fiction Submissions
 * Psychological struggles
 * Coming of age stories
 * Inventive writing styles and techniques
-* New takes on humanity
+* New takes on humanity: past, present, and future
 
 Don't let this list stop you, but here are some things we're wary of:
 
@@ -33,7 +33,7 @@ If you have any doubts about your content and these lists, please don't hesitate
 
 {{site.name}} is seeking novels, novellas, and novelettes to publish for the 2018 catalog. To submit, please contact us at <hybrid@hybrid.ink> with a query containing a synopsis and a sample chapter or two.
 
-Short story collections may be considered, as well, and in that case, please provide a brief synopsis of each story, specify the unifying theme of the collection, if any, and the licensing status of each story
+Short story collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
 
 ## Short form (usually for anthologies) --- ***Closed***{: class="closed" }
 

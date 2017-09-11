@@ -41,6 +41,8 @@ If you have any doubts about your content and these lists, please don't hesitate
 
 {{site.name}} is seeking longer works of creative non-fiction in the form of memoirs, investigative journalism, essay collections, or books. To submit, please contact us at <hybrid@hybrid.ink> with a query containing a synopsis and a writing sample.
 
+Essay and letter collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each piece, and the licensing status of each essay or letter.
+
 ## Short form (usually for anthologies) --- ***Closed***{: class="closed" }
 
 Short-form non-fiction is published in the form of anthologies. These will usually be topical and announced here when the calls are opened. There are currently no open calls.

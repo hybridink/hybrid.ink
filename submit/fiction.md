@@ -20,12 +20,7 @@ Don't let this list stop you, but here are some things we're wary of:
 * Alternate histories
 * Post-apocalyptic worlds
 
-And finally, here is a list of things we will not accept presented in a positive light:
-
-* Racism, sexism, homophobia, transphobia, or other forms of discrimination
-* Pedophilia or sex with characters under the age of 18
-* Rape, torture, dubious consent, forced seduction
-* Snuff or Necrophilia
+{% include nope.html %}
 
 If you have any doubts about your content and these lists, please don't hesitate to ask!
 

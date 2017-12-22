@@ -1,28 +1,46 @@
 \documentclass[12pt,letterpaper]{article}
 
-\usepackage{graphicx}
-\usepackage[top=1in, bottom=1in, right=1in, left=1in]{geometry}
-
-\renewcommand*\rmdefault{ppl}
-
 \def\WorkTitle{The Title}
 \def\WorkAuthor{The Author}
 \def\WorkType{novel}
 \def\PrintRoyalties{25\%}
 \def\DigitalRoyalties{50\%}
 \def\PaymentMechanism{PayPal} % Or check, etc.
+\def\CopyrightDate{January 1, 1970}
 \def\PublicationDate{January 1, 1970}
 
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Publication contract for \WorkTitle}
+\cfoot{\thepage\ of \pageref{LastPage}}
+\rfoot{Initials: \hspace{0.5in}}
+
+\fancypagestyle{final}{
+    \fancyhf{}
+    \chead{Publication contract for \WorkTitle}
+    \cfoot{\thepage\ of \pageref{LastPage}}
+}
+
+\renewcommand*\rmdefault{ppl}
+
 \begin{document}
+
+\begin{center}
 \noindent\includegraphics[width=3.5in]{logo}
-
-\vspace{1in}
-
-\today
+\end{center}
 
 \vspace{0.5in}
 
-AGREEMENT betweren HYBRID Ink, Ltd (``Publisher'') and \WorkAuthor (``Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``Work'').
+\noindent AGREEMENT betweren HYBRID Ink, Ltd (``the Publisher'') and \WorkAuthor\ (``the Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``the Work'').
+
+\section{Duration}
+
+The duration of this Agreement and all rights granted herein is for a fixed term of five years.
 
 \section{Rights}
 
@@ -32,27 +50,28 @@ The Author retains all rights to the Work not granted to the Publisher below.
 
 \paragraph{Publisher's rights}
 
-The Publisher requests first North American English language print and electronic publication rights to the Work, exclusive for one year. The Publisher does not request rights beyond the first. The Publisher does not request audiobook or film rights.
+The Author grants to the Publisher first North American English language print and electronic publication rights to the Work, exclusive for one year. The Publisher does not request audiobook or film rights.
 
-Here is what this means:
+\paragraph{Breakdown of rights}
 
 \begin{itemize}
     \item First rights means that the Publisher will be the first ones to publish the work.
-    \item North American rights means that the publisher will retain these rights only in The United States and Outlying islands, Mexico, and Canada.
-    \item English language rights mean that the publisher only requests the right to publish the Work in English.
-    \item Print and electronic rights mean that the publisher requests the rights to publish a print book and an ebook via common services such as Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also requests the right to sell the ebook independent of services such as a file download.
+    \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
+    \item English language rights mean that the publisher will only retain the right to publish the Work in English.
+    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an ebook via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the ebook independent of services such as a file download.
     \item Exclusive for one year means that the Publisher requests exclusive rights to publication for one year, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
-    \item No rights beyond the first, exclusive means that the Publisher is not requesting any further rights for future publication.
 \end{itemize}
 
 \section{Indemnifications}
 
-The Author attests that the Work is theirs and, to the best of their knowledge:
+The Author attests that they are the sole creator of the Work and that the Work, to the best of their knowledge:
 
 \begin{itemize}
     \item Will not infringe on the personal rights of a third party, and
     \item Will not give rise to claims in defamation, privacy, infringement of copyright or trademark, etc.
 \end{itemize}
+
+The Author indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the publication of the Work. This includes, but is not limited to, actions involving plagiarism, fraud, and theft.
 
 \section{Duties}
 
@@ -74,12 +93,15 @@ The Publisher shall:
     \item Edit the work for content,
     \item Edit the work for spelling and punctuation,
     \item Edit the work for presentation,
-    \item Obtain a copyright on the Work if one has not already been obtained,
     \item Procure cover and internal art not otherwise provided by the Author,
     \item Layout and design print and ebooks,
-    \item Publish the work, and
+    \item Publish the work for sale through print and electronically, and
     \item Promote and market the work on various channels at their discretion.
 \end{itemize}
+
+\section{Copyright}
+
+The Publisher will obtain copyright for the Work in the Author's name, and will do so by \CopyrightDate. Should the Publisher provide any additional materials including but not limited to cover art, internal art, additional text such as blurbs, etc., the Publisher will retain copyright ownership of that material.
 
 \section{Advances and Royalties}
 
@@ -100,9 +122,13 @@ The Publisher agrees to pay royalties on net sales according to the following:
 \end{tabular}
 \end{center}
 
-\paragraph{Payment Schedule}
+\paragraph{Payment schedule}
 
 The Publisher will pay the Author quarterly by way of \PaymentMechanism
+
+\paragraph{Statement of account}
+
+The Publisher will furnish a statement of account along with each quarterly payment.
 
 \section{Publication}
 
@@ -117,5 +143,61 @@ Publication may be reasonably delayed due to unforeseeable circumstances through
 \paragraph{Sunset}
 
 If the publication date is not met by \PublicationDate, this contract will sunset and all rights revert back to the Author.
+
+\section{Competing works}
+
+The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
+
+\section{Reversion}
+
+\paragraph{Out-of-print}
+
+The Work shall be considered out-of-print:
+
+\begin{itemize}
+    \item When the Work is for sale by the Publisher or licensee of the Publisher over two sales periods of 90 days, but
+    \item Fewer than 25 copies of the work have been sold by the Publisher or licensee of the Publisher, including through print-on-demand services and by electronic transmission or reproduction over that period.
+\end{itemize}
+
+\paragraph{Request of reversion}
+
+If the Work is out-of-print and the Publisher receives a written request for reversion of rights to The Work from the Author, the Publisher shall agree to do one of the following within 90 days:
+
+\begin{itemize}
+    \item Revert, in writing, to the Author all rights granted to the Publisher in this Agreement; or
+    \item Announce that it will reissue an edition of the Work.
+\end{itemize}
+
+\section{Termination}
+
+Other than the mechanisms outlined above, this Agreement may only be terminated by written agreement signed by both the Author and the Publisher.
+
+This Agreement is subject to the laws and regulations of the State of Washington.
+
+\newpage
+
+\thispagestyle{final}
+
+\section*{Signed}
+
+\begin{tabular}{p{3in} p{3in}}
+    \vspace{0.5in} & \\ \hline
+    Printed name of representative of the Publisher & Printed name of the Author \\
+    \vspace{0.5in} & \\ \hline
+    Signature of representative of the Publisher & Signature of the Author \\
+    \vspace{0.5in} & \\ \hline
+    Date & Date \\
+\end{tabular}
+
+\section*{Witnessed}
+
+\begin{tabular}{l}
+    \vspace{0.5in} \\ \hline
+    Printed name of witness/lawyer \\
+    \vspace{0.5in} \\ \hline
+    Signature of witness/lawyer \\
+    \vspace{0.5in} \\ \hline
+    Date \\
+\end{tabular}
 
 \end{document}

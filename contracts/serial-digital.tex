@@ -1,0 +1,177 @@
+\documentclass[12pt,letterpaper,oneside]{article}
+
+%%%%%
+% Variables to fill in on a per-contract basis
+
+\def\WorkTitle{The Title}
+\def\WorkAuthor{The Author}
+\def\WorkType{short story}
+\def\WordCount{9,123}
+\def\Publication{My Good Anthology}
+\def\Issue{ 1} % Lead with space or punctuation
+\def\Fee{1.23}
+\def\Rate{0.06}
+\def\PaymentMechanism{PayPal} % Or check, etc.
+\def\PublicationDate{January 1, 1970}
+\def\ContractNumber{1}
+
+\usepackage[pdftex]{hyperref}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+\usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Publication contract  No. \ContractNumber\ --- \WorkTitle\ (\Publication\Issue)}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\renewcommand*\rmdefault{ppl}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
+\begin{document}
+
+\begin{center}
+    \noindent\includegraphics[width=3.5in]{logo}
+\end{center}
+
+\vspace{0.5in}
+
+\noindent AGREEMENT between Hybrid Ink, Ltd (``the Publisher'') and \WorkAuthor (``the Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``the Work'') in \textit{\Publication\Issue} (``the Publication'').
+
+\section{Rights}
+
+\paragraph{Author's rights}
+
+The Author retains all rights to the Work not granted to the Publisher below.
+
+\paragraph{Publisher's rights}
+
+The Author grants to the Publisher first North American serial English language print and electronic publication rights to the Work, exclusive for six months. The Publisher does not request audiobook or film rights.
+
+\paragraph{Breakdown of rights}
+
+\begin{itemize}
+    \item First rights means that the Publisher will be the first ones to publish the work.
+    \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
+    \item Serial rights mean that the publisher will retain the rights to publish the work in an anthology or serial publication.
+    \item English language rights mean that the publisher will only retain the right to publish the Work in English.
+    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
+    \item Exclusive for six months means that the Publisher requests exclusive rights to publication for six months, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
+\end{itemize}
+
+\section{Indemnifications}
+
+The Author attests that they are the sole creator of the Work and that the Work, to the best of their knowledge:
+
+\begin{itemize}
+    \item Will not infringe on the personal rights of a third party, and
+    \item Will not give rise to claims in defamation, privacy, infringement of copyright or trademark, etc.
+\end{itemize}
+
+The Author indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the publication of the Work. This includes, but is not limited to, actions involving plagiarism, fraud, and theft.
+
+\section{Duties}
+
+\paragraph{Author duties}
+
+The Author shall:
+
+\begin{itemize}
+    \item Deliver a complete manuscript for the book,
+    \item Work with the Publisher and any representatives during the pre-publication editorial process, and
+    \item Promote and market their own work post-publication.
+\end{itemize}
+
+\paragraph{Publisher duties}
+
+The Publisher or its representatives shall:
+
+\begin{itemize}
+    \item Edit the work for content,
+    \item Edit the work for spelling and punctuation,
+    \item Edit the work for presentation,
+    \item Procure cover and internal art not otherwise provided by the Author,
+    \item Layout and design print and e-books,
+    \item Publish the work for sale through print and electronically, and
+    \item Promote and market the work on various channels at their discretion.
+\end{itemize}
+
+\section{Copyright}
+
+The Author will be responsible for obtaining copyright for the Work. Should the Publisher provide any additional materials including but not limited to cover art, internal art, additional text such as blurbs, etc., the Publisher will retain copyright ownership of that material.
+
+\section{Payment}
+
+\paragraph{Flat fee}
+
+The Author will be paid a flat fee at the rate of \$\Rate\ per word for a total of \hl{\$\Fee}.
+
+\paragraph{Payment date}
+
+The Publisher will furnish payment to the Author upon receipt of this signed agreement via \PaymentMechanism.
+
+\section{Publication}
+
+\paragraph{Publication date}
+
+Publication of the Work will not take place after \PublicationDate.
+
+\paragraph{Reasonable delay}
+
+Publication may be reasonably delayed due to unforeseeable circumstances through no fault of the Publisher such as, but not limited to, criminal action, labor disputes, etc.
+
+\paragraph{Sunset}
+
+If the publication date is not met by \PublicationDate\ plus 90 days, this contract will sunset and all rights revert back to the Author.
+
+\section{Competing works}
+
+The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
+
+\section{Termination}
+
+Other than the mechanisms outlined above, this Agreement may only be terminated by written agreement signed by both the Author and the Publisher.
+
+\section{Additional regulations}
+
+This Agreement is subject to the laws and regulations of the State of Washington.
+
+\newpage
+
+When Author enters the information below and emails this contract back to Publisher, the parties agree that the contract is digitally signed:
+
+\begin{Form}
+    \q{First Name}
+    \q{Last Name}
+    \q{Today's Date}
+    \q{Email}
+\end{Form}
+
+\hrule
+
+\vspace{12pt}
+
+\noindent \textit{Publisher:}
+
+HYBRID Ink, Ltd
+
+Madison Scott-Clary --- representative of the Publisher
+
+6811 Commercial Ave.
+
+Everett, WA 98203
+
+\end{document}

@@ -7,9 +7,9 @@ title: Editors
 {: id="Madison" }
 
 ![Makyo](/images/editors/makyo.png){: class="editor" }
-Madison is president of the Furry Writers' Guild and the editor-in-chief of [\[adjective\]\[species\]](http://adjectivespecies.com), as well as an editor at [Thurston Howl Publications](http://thurstonhowlpublications.com). She writes fiction and poetry, as well as investigative non-fiction, focusing primarily the furry subculture.
+Madison is a writer, editor, and software developer. After studying music composition at Colorado State University, she began working in open source software, spending her free time working with stories. She writes fiction and poetry, as well as investigative non-fiction, focusing primarily the furry subculture, and began {{ site.brand }} as a means to help promote literature that delves into the meaning of the world around us.
 
-She lives in Loveland, Colorado with her two dogs and her husband, who is sometimes also a dog.
+She lives in the Pacific Northwest with her two dogs and her husband, who is sometimes also a dog.
 {: class="clearfix" }
 
 <div class="announcement">

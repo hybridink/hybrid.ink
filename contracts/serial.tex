@@ -1,49 +1,62 @@
-\documentclass[12pt,letterpaper]{article}
+\documentclass[12pt,letterpaper,oneside]{article}
+
+%%%%%
+% Variables to fill in on a per-contract basis
 
 \def\WorkTitle{The Title}
 \def\WorkAuthor{The Author}
-\def\WorkType{novel}
-\def\PrintRoyalties{25\%}
-\def\DigitalRoyalties{50\%}
+\def\WorkType{short story}
+\def\WordCount{9,123}
+\def\Publication{My Good Anthology}
+\def\Issue{ 1} % Lead with space or punctuation
+\def\Fee{1.23}
+\def\Rate{0.06}
 \def\PaymentMechanism{PayPal} % Or check, etc.
-\def\CopyrightDate{January 1, 1970}
 \def\PublicationDate{January 1, 1970}
 \def\ContractNumber{1}
 
+\usepackage[pdftex]{hyperref}
 \usepackage{graphicx}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
+\usepackage{color,soul}
 \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
 \usepackage{draftwatermark}
 \SetWatermarkText{DRAFT}
 
 \pagestyle{fancy}
 \fancyhf{}
-\chead{Publication contract No. \ContractNumber\ --- \WorkTitle}
+\chead{Publication contract  No. \ContractNumber\ --- \WorkTitle\ (\Publication\Issue)}
 \cfoot{\thepage\ of \pageref{LastPage}}
 \rfoot{Initials: \hspace{0.5in}}
 
 \fancypagestyle{final}{
     \fancyhf{}
-    \chead{Publication contract No. \ContractNumber\ --- \WorkTitle}
+    \chead{Publication contract  No. \ContractNumber\ --- \WorkTitle\ (\Publication\Issue)}
     \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
 \renewcommand*\rmdefault{ppl}
 
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
 \begin{document}
 
 \begin{center}
-\noindent\includegraphics[width=3.5in]{logo}
+    \noindent\includegraphics[width=3.5in]{logo}
 \end{center}
 
 \vspace{0.5in}
 
-\noindent AGREEMENT between HYBRID Ink, Ltd (``the Publisher'') and \WorkAuthor\ (``the Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``the Work'').
-
-\section{Duration}
-
-The duration of this Agreement and all rights granted herein is for a fixed term of five years.
+\noindent AGREEMENT between Hybrid Ink, Ltd (``the Publisher'') and \WorkAuthor (``the Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``the Work'') in \textit{\Publication\Issue} (``the Publication'').
 
 \section{Rights}
 
@@ -53,16 +66,17 @@ The Author retains all rights to the Work not granted to the Publisher below.
 
 \paragraph{Publisher's rights}
 
-The Author grants to the Publisher first North American English language print and electronic publication rights to the Work, exclusive for one year. The Publisher does not request audiobook or film rights.
+The Author grants to the Publisher first North American serial English language print and electronic publication rights to the Work, exclusive for six months. The Publisher does not request audiobook or film rights.
 
 \paragraph{Breakdown of rights}
 
 \begin{itemize}
     \item First rights means that the Publisher will be the first ones to publish the work.
     \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
+    \item Serial rights mean that the publisher will retain the rights to publish the work in an anthology or serial publication.
     \item English language rights mean that the publisher will only retain the right to publish the Work in English.
     \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
-    \item Exclusive for one year means that the Publisher requests exclusive rights to publication for one year, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
+    \item Exclusive for six months means that the Publisher requests exclusive rights to publication for six months, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
 \end{itemize}
 
 \section{Indemnifications}
@@ -104,34 +118,17 @@ The Publisher or its representatives shall:
 
 \section{Copyright}
 
-The Publisher will obtain copyright for the Work in the Author's name, and will do so by \CopyrightDate. Should the Publisher provide any additional materials including but not limited to cover art, internal art, additional text such as blurbs, etc., the Publisher will retain copyright ownership of that material.
+The Author will be responsible for obtaining copyright for the Work. Should the Publisher provide any additional materials including but not limited to cover art, internal art, additional text such as blurbs, etc., the Publisher will retain copyright ownership of that material.
 
-\section{Advances and Royalties}
+\section{Payment}
 
-\paragraph{Advance}
+\paragraph{Flat fee}
 
-There will be no advance against future royalties.
+The Author will be paid a flat fee at the rate of \$\Rate\ per word for a total of \hl{\$\Fee}.
 
-\paragraph{Royalties}
+\paragraph{Payment date}
 
-The Publisher agrees to pay royalties on net sales according to the following:
-
-\begin{center}
-\begin{tabular}{r c}
-    \textbf{Edition} & \textbf{Royalties} \\ \hline
-    Trade Paperback & \PrintRoyalties \\
-    E-book & \DigitalRoyalties \\
-    \hline
-\end{tabular}
-\end{center}
-
-\paragraph{Payment schedule}
-
-The Publisher will pay the Author quarterly by way of \PaymentMechanism.
-
-\paragraph{Statement of account}
-
-The Publisher will furnish a statement of account along with each quarterly payment.
+The Publisher will furnish payment to the Author upon receipt of this signed agreement via \PaymentMechanism.
 
 \section{Publication}
 
@@ -150,26 +147,6 @@ If the publication date is not met by \PublicationDate\ plus 90 days, this contr
 \section{Competing works}
 
 The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
-
-\section{Reversion}
-
-\paragraph{Out-of-print}
-
-The Work shall be considered out-of-print:
-
-\begin{itemize}
-    \item When the Work is for sale by the Publisher or licensee of the Publisher over two sales periods of 90 days, but
-    \item Fewer than 25 copies of the work have been sold by the Publisher or licensee of the Publisher, including through print-on-demand services and by electronic transmission or reproduction over that period.
-\end{itemize}
-
-\paragraph{Request of reversion}
-
-If the Work is out-of-print and the Publisher receives a written request for reversion of rights to The Work from the Author, the Publisher shall agree to do one of the following within 90 days:
-
-\begin{itemize}
-    \item Revert, in writing, to the Author all rights granted to the Publisher in this Agreement; or
-    \item Announce that it will reissue an edition of the Work.
-\end{itemize}
 
 \section{Termination}
 

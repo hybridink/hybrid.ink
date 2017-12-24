@@ -20,9 +20,6 @@
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{color,soul}
-\usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -37,6 +34,16 @@
 }
 
 \renewcommand*\rmdefault{ppl}
+
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
 
 \newdimen\longline
 \longline=\textwidth\advance\longline-4cm
@@ -56,7 +63,7 @@
 
 \vspace{0.5in}
 
-\noindent AGREEMENT between Hybrid Ink, LLC (``the Publisher'') and \WorkAuthor (``the Author''). The parties to this Agreement wish to publish the \WorkType\ ``\WorkTitle'' (``the Work'') in \textit{\Publication\Issue} (``the Publication'').
+\noindent AGREEMENT between \textbf{HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Author''). The parties to this Agreement wish to publish the \WorkType\ \textbf{``\WorkTitle''} (``the Work'') in \textit{\Publication\Issue} (``the Publication'').
 
 \section{Rights}
 

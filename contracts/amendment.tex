@@ -14,9 +14,6 @@
 \usepackage{graphicx}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
-\usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -32,6 +29,16 @@
 
 \renewcommand*\rmdefault{ppl}
 
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+
 \begin{document}
 
 \begin{center}
@@ -40,7 +47,7 @@
 
 \vspace{0.5in}
 
-\noindent This AMENDMENT is made to that agreement No. \ContractNumber\ between HYBRID Ink, LLC (``the Publisher'') and \WorkAuthor\ (``the Author'') regarding \WorkType\ ``\WorkTitle'' (``the Work''). It is mutually agreed upon and understood by the undersigned contracting parties to amend that previously executed agreement as follows:
+\noindent This AMENDMENT is made to that \emph{agreement No. \ContractNumber} between \textbf{HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Author'') regarding \WorkType\ \textbf{``\WorkTitle''} (``the Work''). It is mutually agreed upon and understood by the undersigned contracting parties to amend that previously executed agreement as follows:
 
 \paragraph{Amendment 1}
 

@@ -48,6 +48,11 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+
+    &.icon {
+        display: inline-block;
+        width: 16px;
+    }
 }
 
 

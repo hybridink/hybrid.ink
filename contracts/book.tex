@@ -10,6 +10,17 @@
 \def\PublicationDate{January 1, 1970}
 \def\ContractNumber{1}
 
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}{}
+
 \usepackage{graphicx}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
@@ -27,16 +38,6 @@
 }
 
 \renewcommand*\rmdefault{ppl}
-
-%%% Draft mode
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
-\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
-\usepackage[pdftex,dvipsnames]{xcolor}
-\usepackage[colorinlistoftodos]{todonotes}
-\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
-%%% Final mode
-% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
 
 \begin{document}
 
@@ -65,10 +66,10 @@ The Author grants to the Publisher first North American English language print a
 \paragraph{Breakdown of rights}
 
 \begin{itemize}
-    \item First rights means that the Publisher will be the first ones to publish the work.
-    \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
-    \item English language rights mean that the publisher will only retain the right to publish the Work in English.
-    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
+    \item First rights means that the Publisher will be the first ones to publish the Work.
+    \item North American rights means that the Publisher will retain these rights only in The United States, Mexico, and Canada.
+    \item English language rights mean that the Publisher will only retain the right to publish the Work in English.
+    \item Print and electronic rights mean that the Publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
     \item Exclusive for one year means that the Publisher requests exclusive rights to publication for one year, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
 \end{itemize}
 
@@ -90,9 +91,9 @@ The Author indemnifies and holds harmless the Publisher against any and all clai
 The Author shall:
 
 \begin{itemize}
-    \item Deliver a complete manuscript for the book,
+    \item Deliver a complete manuscript for the Work,
     \item Work with the Publisher and any representatives during the pre-publication editorial process, and
-    \item Promote and market their own work post-publication.
+    \item Promote and market the Work post-publication.
 \end{itemize}
 
 \paragraph{Publisher duties}
@@ -100,13 +101,13 @@ The Author shall:
 The Publisher or its representatives shall:
 
 \begin{itemize}
-    \item Edit the work for content,
-    \item Edit the work for spelling and punctuation,
-    \item Edit the work for presentation,
+    \item Edit the Work for content,
+    \item Edit the Work for spelling and punctuation,
+    \item Edit the Work for presentation,
     \item Procure cover and internal art not otherwise provided by the Author,
     \item Layout and design print and e-books,
     \item Publish the work for sale through print and electronically, and
-    \item Promote and market the work on various channels at their discretion.
+    \item Promote and market the Work on various channels, with discounts at their discretion.
 \end{itemize}
 
 \section{Copyright}
@@ -140,6 +141,16 @@ The Publisher will pay the Author quarterly by way of \PaymentMechanism.
 
 The Publisher will furnish a statement of account along with each quarterly payment.
 
+\section{Direct Copies}
+
+\paragraph{Advance Reader Copies} The Publisher may provide Advance Reader Copies or Advance Review Copies (ARCs) at their discretion.
+
+\paragraph{At publication} The Publisher will ship twenty copies of the Work to the Author prior to publication. The Author will sign ten and ship those back to the Publisher for promotional use, and keep the other ten for their own use.
+
+\paragraph{Post-publication} The Author will have the right to purchase additional copies at cost plus shipping for sale at their discretion.
+
+\paragraph{E-book} The Author will receive e-book file or files of the Work to give to friends and family at their discretion.
+
 \section{Publication}
 
 \paragraph{Publication date}
@@ -156,23 +167,23 @@ If the publication date is not met by \PublicationDate\ plus 90 days, this contr
 
 \section{Competing works}
 
-The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
+The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).\NB{We will likely say yes, but do think of us should this situation arise.}
 
 \section{Reversion}
 
 \paragraph{Out-of-print}
 
-The Work shall be considered out-of-print:
+The Work shall be considered out-of-print:\NB{Due to the limited terms of this contract, these situations will not arise, but is here for protection.}
 
 \begin{itemize}
     \item When the Work is for sale by the Publisher or licensee of the Publisher over two sales periods of 90 days, and
-    \item This contract is still in force, but
-    \item Fewer than 25 copies of the work have been sold by the Publisher or licensee of the Publisher, including through print-on-demand services and by electronic transmission or reproduction over that period.
+    \item This Agreement is still in force, but
+    \item Fewer than 25 copies of the Work have been sold by the Publisher or licensee of the Publisher, including through print-on-demand services and by electronic transmission or reproduction over that period.
 \end{itemize}
 
 \paragraph{Request of reversion}
 
-If the Work is out-of-print and the Publisher receives a written request for reversion of rights to The Work from the Author, the Publisher shall agree to do one of the following within 90 days:
+If the Work is out-of-print and the Publisher receives a written request for reversion of rights to the Work from the Author, the Publisher shall agree to do one of the following within 90 days:
 
 \begin{itemize}
     \item Revert, in writing, to the Author all rights granted to the Publisher in this Agreement; or

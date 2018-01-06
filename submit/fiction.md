@@ -33,3 +33,5 @@ Short story collections may be considered, as well, and in that case, please spe
 ## Short form (usually for anthologies) --- ***Closed***{: class="closed" }
 
 Short-form fiction is published in the form of anthologies. These will usually be topical and announced here when the calls are opened. There are currently no open calls.
+
+{% include submission-format.html %}

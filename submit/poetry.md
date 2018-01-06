@@ -27,3 +27,5 @@ And finally, here is a list of things we will not accept presented in a positive
 Poetry is published either in the form of a collection of a single poet's work or in the form of anthologies. If you have a collection of poetry, please contact us at <hybrid@hybrid.ink> with a query containing and explanation of the collection and some representative works.
 
 Anthologies will usually be topical and announced here when the calls are opened. There are currently no open calls.
+
+{% include submission-format.html %}

@@ -1,0 +1,232 @@
+\documentclass[12pt,letterpaper]{article}
+
+\def\WorkTitle{The Title}
+\def\WorkAuthor{The Author}
+\def\WorkType{novel}
+\def\Artist{Artist}
+\def\ArtType{a cover illustration}
+\def\FlatFee{\$500 USD}
+\def\PrintRoyalties{25\%}
+\def\DigitalRoyalties{50\%}
+\def\PaymentMechanism{PayPal} % Or check, etc.
+\def\CopyrightDate{January 1, 1970}
+\def\PublicationDate{January 1, 1970}
+\def\ContractNumber{1}
+\def\RelatedContract{1}
+
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}{}
+
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Publication contract No. \ContractNumber\ --- \WorkTitle}
+\cfoot{\thepage\ of \pageref{LastPage}}
+\rfoot{Initials: \hspace{0.5in}}
+
+\fancypagestyle{final}{
+    \fancyhf{}
+    \chead{Illustration contract No. \ContractNumber\ --- \WorkTitle}
+    \cfoot{\thepage\ of \pageref{LastPage}}
+}
+
+\renewcommand*\rmdefault{ppl}
+
+\begin{document}
+
+\begin{center}
+\noindent\includegraphics[width=3.5in]{logo}
+\end{center}
+
+\vspace{0.5in}
+
+\noindent AGREEMENT between \textbf{HYBRID Ink, LLC} (``the Publisher'') and \textbf{\Artist} (``the Artist''). The parties to this Agreement wish to provide \ArtType\ (``the Piece'')for the \WorkType\ \textbf{``\WorkTitle''} (``the Work'') by \WorkAuthor\ (``the Author'') referenced in publication contract number \RelatedContract.
+
+\section{Duration}
+
+The duration of this Agreement and all rights granted herein is for a fixed term of five years.
+
+\section{Rights}
+
+\paragraph{Artist's rights}
+
+The Artist retains all rights to the Piece not granted to the Publisher below.
+
+\paragraph{Publisher's rights}
+
+The Author grants to the Publisher first North American English language print and electronic publication rights to the Work, exclusive for one year.
+
+The Artist grants rights to use the Piece as \WorkType\ to be published in conjunction with the Work in print and digital formats, and to be used in marketing and publication.
+
+\paragraph{Breakdown of rights}
+
+\begin{itemize}
+    \item First rights means that the Publisher will be the first ones to publish the Work.
+    \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
+    \item English language rights mean that the publisher will only retain the right to publish the Work in English.
+    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
+    \item Exclusive for one year means that the Publisher requests exclusive rights to publication for one year, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
+    \item Marketing and publication use of the Piece will be limited to lower-resolution images to be used in advertisements and on digital storefronts including but not limited to Amazon and Barnes \& Nobel.
+\end{itemize}
+
+\paragraph{Other contracts}
+
+The agreement between the Publisher and the Author is governed by a similar contract, publication contract number \RelatedContract. This will be made available to the Artist on request to confirm details. This Agreement shall not infringe upon that contract. This Agreement is scoped to this publication only; should the Artist wish to work with the Author on future publications, this Agreement shall not infringe upon those agreements, nor will those agreements infringe upon this Agreement.
+
+\section{Indemnifications}
+
+The Artist attests that they are the sole creator of the Piece and that the Piece, to the best of their knowledge:
+
+\begin{itemize}
+    \item Will not infringe on the personal rights of a third party, and
+    \item Will not give rise to claims in defamation, privacy, infringement of copyright or trademark, etc.
+\end{itemize}
+
+The Artist indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the publication of the Piece. This includes, but is not limited to, actions involving plagiarism, fraud, and theft.
+
+\paragraph{Components}
+
+The Artist may use related assets, including but not limited to fonts, brushes, or stock imagery, as components in the Piece in accordance to the licenses, including but not limited to reproduction or publication rights, of those assets.\NB{Should the publisher be required to pay licensing fees, this section will be amended.}
+
+\section{Duties}
+
+\paragraph{Artist duties}
+
+The Author shall:
+
+\begin{itemize}
+    \item Deliver a complete \ArtType\ as a high-resolution digital asset,
+    \item Work with the Author, the Publisher, and any representatives during the pre-publication process, and
+    \item Promote and market the Work as they see fit post-publication.
+\end{itemize}
+
+\paragraph{Publisher duties}
+
+The Publisher or its representatives shall:
+
+\begin{itemize}
+    \item Facilitate communication between the Author, the Artist, and any representatives of the publisher during the publication process,
+    \item Manage payment and compensation toward the Artist,
+    \item Layout and design print and e-books,
+    \item Publish the Work for sale through print and electronically, and
+    \item Promote and market the work on various channels, with discounts at their discretion.
+\end{itemize}
+
+\section{Copyright}
+
+The Publisher will obtain copyright for the Piece in the Artist's name, and will do so by \CopyrightDate.\NB{If you have already obtained a copyright, let the publisher know.}
+
+\section{Compensation}
+
+\paragraph{Flat fee}
+
+The Publisher agrees to pay a flat fee of \FlatFee\ to the Artist upon receipt of the high-resolution Piece. The Publisher will furnish payment via \PaymentMechanism.
+
+%
+% \paragraph{Royalties}
+%
+% The Publisher agrees to pay royalties on net sales according to the following:
+%
+% \begin{center}
+% \begin{tabular}{r c}
+%     \textbf{Edition} & \textbf{Royalties} \\ \hline
+%     Trade Paperback & \PrintRoyalties \\
+%     E-book & \DigitalRoyalties \\
+%     \hline
+% \end{tabular}
+% \end{center}
+%
+% \paragraph{Payment schedule}
+%
+% The Publisher will pay the Artist quarterly by way of \PaymentMechanism.
+%
+% \paragraph{Statement of account}
+%
+% The Publisher will furnish a statement of account along with each quarterly payment.
+
+\section{Direct Copies}
+
+\paragraph{At publication} The Publisher will ship ten copies of The Work to the Artist prior to publication for their own sale or use.
+
+\paragraph{Post-publication} The Artist will have the right to purchase additional copies at cost plus shipping for sale at their discretion.
+
+\section{Publication}
+
+\paragraph{Publication date}
+
+Publication of the Work will not take place after \PublicationDate.
+
+\paragraph{Reasonable delay}
+
+Publication may be reasonably delayed due to unforeseeable circumstances through no fault of the Publisher such as, but not limited to, criminal action, labor disputes, etc.
+
+\paragraph{Sunset}
+
+If the publication date is not met by \PublicationDate\ plus 90 days, this contract will sunset and all rights revert back to the Artist.
+
+\section{Competing works}
+
+The Artist agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Work mentioned herein, unless agreed upon by the Publisher (e.g., the Artist may not illustrate subsequent piece with another publisher without prior consent of the Publisher).
+
+\section{Reversion}
+
+\paragraph{Out-of-print}
+
+The Work shall be considered out-of-print:\NB{This will likely not be necessary due to the term limits already in place, but is here for everyone's protection.}
+
+\begin{itemize}
+    \item When the Work is for sale by the Publisher or licensee of the Publisher over two sales periods of 90 days, and
+    \item This contract is still in force, but
+    \item Fewer than 25 copies of the work have been sold by the Publisher or licensee of the Publisher, including through print-on-demand services and by electronic transmission or reproduction over that period.
+\end{itemize}
+
+\paragraph{Request of reversion}
+
+If the Work is out-of-print and the Publisher receives a written request for reversion of rights to the Piece from the Artist, the Publisher shall agree to revert, in writing, to the Artist all rights granted to the Publisher in this Agreement.
+
+\section{Termination}
+
+Other than the mechanisms outlined above, this Agreement may only be terminated by written agreement signed by both the Artist and the Publisher.
+
+\section{Additional regulations}
+
+This Agreement is subject to the laws and regulations of the State of Washington.
+
+\newpage
+
+\thispagestyle{final}
+
+\section*{Signed}
+
+\begin{tabular}{p{3in} | p{3in}}
+    \vspace{0.5in} & \\ \hline
+    Printed name of representative of the Publisher & Printed name of the Artist \\
+    \vspace{0.5in} & \\ \hline
+    Signature of representative of the Publisher & Signature of the Artist \\
+    \vspace{0.5in} & \\ \hline
+    Date & Date \\
+\end{tabular}
+
+\section*{Witnessed}
+
+\begin{tabular}{l}
+    \vspace{0.5in} \\ \hline
+    Printed name of witness/lawyer \\
+    \vspace{0.5in} \\ \hline
+    Signature of witness/lawyer \\
+    \vspace{0.5in} \\ \hline
+    Date \\
+\end{tabular}
+
+\end{document}

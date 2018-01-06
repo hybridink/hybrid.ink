@@ -15,6 +15,17 @@
 \def\PublicationDate{January 1, 1970}
 \def\ContractNumber{1}
 
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[pdftex,dvipsnames]{xcolor}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}{}
+
 \usepackage[pdftex]{hyperref}
 \usepackage{graphicx}
 \usepackage{lastpage}
@@ -27,16 +38,6 @@
 \cfoot{\thepage\ of \pageref{LastPage}}
 
 \renewcommand*\rmdefault{ppl}
-
-%%% Draft mode
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
-\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
-\usepackage[pdftex,dvipsnames]{xcolor}
-\usepackage[colorinlistoftodos]{todonotes}
-\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
-%%% Final mode
-% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
 
 \newdimen\longline
 \longline=\textwidth\advance\longline-4cm
@@ -71,12 +72,12 @@ The Author grants to the Publisher first North American serial English language 
 \paragraph{Breakdown of rights}
 
 \begin{itemize}
-    \item First rights means that the Publisher will be the first ones to publish the work.
+    \item First rights means that the Publisher will be the first ones to publish the Work.
     \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
-    \item Serial rights mean that the publisher will retain the rights to publish the work in an anthology or serial publication.
+    \item Serial rights mean that the publisher will retain the rights to publish the Work in an anthology or serial publication.
     \item English language rights mean that the publisher will only retain the right to publish the Work in English.
     \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
-    \item Exclusive for six months means that the Publisher requests exclusive rights to publication for six months, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
+    \item Exclusive for six months means that the Publisher requests exclusive rights to publication for six months, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere or to distribute through mechanisms including but not limited to posting on a personal website.
 \end{itemize}
 
 \section{Indemnifications}
@@ -97,7 +98,7 @@ The Author indemnifies and holds harmless the Publisher against any and all clai
 The Author shall:
 
 \begin{itemize}
-    \item Deliver a complete manuscript for the book,
+    \item Deliver a complete manuscript for the Work,
     \item Work with the Publisher and any representatives during the pre-publication editorial process, and
     \item Promote and market their own work post-publication.
 \end{itemize}
@@ -107,13 +108,13 @@ The Author shall:
 The Publisher or its representatives shall:
 
 \begin{itemize}
-    \item Edit the work for content,
-    \item Edit the work for spelling and punctuation,
-    \item Edit the work for presentation,
+    \item Edit the Work for content,
+    \item Edit the Work for spelling and punctuation,
+    \item Edit the Work for presentation,
     \item Procure cover and internal art not otherwise provided by the Author,
     \item Layout and design print and e-books,
-    \item Publish the work for sale through print and electronically, and
-    \item Promote and market the work on various channels at their discretion.
+    \item Publish the Publication for sale through print and electronically, and
+    \item Promote and market the Publication on various channels, with discounts at their discretion.
 \end{itemize}
 
 \section{Copyright}
@@ -124,7 +125,7 @@ The Author will be responsible for obtaining copyright for the Work. Should the 
 
 \paragraph{Flat fee}
 
-The Author will be paid a flat fee at the rate of \$\Rate\ per word for a total of \hl{\$\Fee}.
+The Author will be paid a flat fee at the rate of \Rate\ per word at \WordCount\ words for a total of \hl{\mbox{\Fee}}.
 
 \paragraph{Payment date}
 
@@ -134,7 +135,7 @@ The Publisher will furnish payment to the Author upon receipt of this signed agr
 
 \paragraph{Publication date}
 
-Publication of the Work will not take place after \PublicationDate.
+Publication of the Publication, and thus the Work, will not take place after \PublicationDate.
 
 \paragraph{Reasonable delay}
 
@@ -146,7 +147,7 @@ If the publication date is not met by \PublicationDate\ plus 90 days, this contr
 
 \section{Competing works}
 
-The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Book mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
+The Author agrees that they shall publish no other work, during the terms of this contract, that includes any characters, likenesses, or any other material related to the Work mentioned herein, unless agreed upon by the Publisher (e.g., the Author may not publish a sequel to the Work with another publisher without prior consent of the Publisher).
 
 \section{Termination}
 

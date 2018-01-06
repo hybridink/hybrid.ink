@@ -45,11 +45,9 @@ Submission rating
 How to submit
 :   *Submissions are not yet open.*{: class="closed" } Keep an eye out here for when they do!
 
-<!-- :   Please email submissions, one per email, to [hybrid+flsex@hybrid.ink](mailto:hybrid+flsex@hybrid.ink). Please format the subject line of your email `[FLSex Submission]: <submission title> - <your name>` and attach your story to the email. In the body of your email, include a cover-letter with a brief synopsis as well as some information about yourself.
-
-    Submission file formats accepted are DOC, DOCX, ODT, RTF, Markdown/TeX/plaintext, or, worst case, PDF. Stories will be gently massaged into an internal manuscript format, so if your work involves special formatting, let us know in your cover letter.
-
-    Submission reading will be anonymous. Please remove the title and byline from your story, including any identifying information in the headers/footers. Name your submission file `FLSex--<your title>`. -->
+<!-- :   
+{% include submission-format.html %}
+-->
 
 Schedule
 :   Submissions will be read and responded to within four weeks (but likely faster). From there, submissions will go through a brief editing phase, which will determine final wordcount, whereupon contracts and payment will be sent to the authors.

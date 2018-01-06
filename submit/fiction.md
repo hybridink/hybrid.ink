@@ -26,7 +26,7 @@ If you have any doubts about your content and these lists, please don't hesitate
 
 ## Long form --- ***Open***{: class="open" }
 
-{{site.name}} is seeking novels, novellas, and novelettes to publish for the 2018 catalog. To submit, please contact us at <hybrid@hybrid.ink> with a query containing a synopsis and a sample chapter or two.
+{{site.name}} is seeking novels, novellas, and novelettes to publish for the 2018 catalog.
 
 Short story collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
 

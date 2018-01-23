@@ -12,7 +12,7 @@ We're fast approaching the release of our inaugural publication, [*My Dinner Wit
 
 That was about 20 years ago. I've been writing fiction, poetry, and non-fiction nearly constantly since then. Mostly short form, but I have a couple unpublished novels and a movie-length screenplay in my past, too. I also write and perform stand-up comedy. My day job is a technical writer.
 
-**You mention growing through your David Foster Wallace influence. What did you like about his work? What did you dislike**
+**You mention growing through your David Foster Wallace influence. What did you like about his work? What did you dislike?**
 
 I liked his mastery of the language. How he wrote long, discursive sentences that you could get lost in. The footnotes and all-over timeline. I also disliked that he often wrote long, discursive sentences that you could get lost in.
 

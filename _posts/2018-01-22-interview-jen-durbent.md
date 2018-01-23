@@ -6,6 +6,8 @@ author: Madison
 
 We're fast approaching the release of our inaugural publication, [*My Dinner With Andrea*](/my-dinner-with-andrea), and to help share our excitement, {{site.brand}} editor [Madison Scott-Clary](/editors/#Madison) sat down (well, exchanged emails) with author Jen Durbent to learn more about her and her book.
 
+-----
+
 **_Madison Scott-Clary_: Tell us a little about yourself? What got you writing?**
 
 **_Jen Durbent_:** I started writing in earnest in High School. I had a couple teachers that were more tolerant than others of silly "use this word in a sentence" takes than maybe they should have been. Then I went to Illinois State University and got all in on the Post-Modernism bandwagon. While I was there, David Foster Wallace was teaching. While I never had him for a teacher, his presence was always keenly felt. His influence was undeniable on my earlier work. I hope I've been able to grow through that.
@@ -16,7 +18,7 @@ That was about 20 years ago. I've been writing fiction, poetry, and non-fiction 
 
 I liked his mastery of the language. How he wrote long, discursive sentences that you could get lost in. The footnotes and all-over timeline. I also disliked that he often wrote long, discursive sentences that you could get lost in.
 
-Something that stuck with me is how one can mine cliche for not only new meanings but to revisit the often over-used metaphors they are built upon.
+Something that stuck with me is how one can mine cliché for not only new meanings but to revisit the often over-used metaphors they are built upon.
 
 For a while, I used footnotes extensively in my work. That was fun. But ultimately it was a crutch. Sometimes I do use them (especially in sci-fi with truly background things). I just had to consciously break from that habit to grow and be my own writer.
 

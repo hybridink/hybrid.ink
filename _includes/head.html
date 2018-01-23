@@ -6,7 +6,41 @@
     <meta name="google-site-verification" content="sIqrPg3DwbF-WvNPNCa9jixXXsaYEKCXH00kPGnvQV0" />
 
     <title>{% if page.title %}{{ page.title|strip_html }} | Hybrid{% else %}{{ site.title }}{% endif %}</title>
+
+    <!-- metadata -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- OpenGraph metadata -->
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+        <meta property="og:title" content="HYBRID Ink, LLC" />
+    {% endif %}
+    <meta property="og:site_name" content="HYBRID Ink, LLC" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ '/images/logo.png' | absolute_url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:description" content="{{ site.description }}{% if page.layout == 'post' %} | {{ page.title|xml_escape }}{% endif %}" />
+
+    <!-- Twitter Card metadata -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@hybrid_ink" />
+    <meta name="twitter:title" content="HYBRID Ink, LLC{% if page.title %} | {{ page.title|xml_escape }}{% endif %}" />
+    <meta name="twitter:description" content="{{ site.description }}{% if page.layout == 'post' %} | {{ page.title|xml_escape }}{% endif %}" />
+    <meta name="twitter:image" content="{{ '/images/favicon.png' | absolute_url }}" />
+
+    <!-- JSON-LD metadata -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "HYBRID Ink, LLC",
+            "headline": "HYBRID Ink, LLC{% if page.title %} | {{ page.title|xml_escape }}{% endif %}",
+            "description": "{{ site.description }}{% if page.layout == 'post' %} | {{ page.title|xml_escape }}{% endif %}",
+            "url": "{{ site.url }}{{ page.url }}"
+        }
+    </script>
 
     <link href='https://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Ubuntu:100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/main.css?last-modified=2017-04-03">

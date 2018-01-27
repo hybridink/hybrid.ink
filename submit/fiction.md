@@ -13,7 +13,7 @@ title: Fiction Submissions
 * Inventive writing styles and techniques
 * New takes on humanity: past, present, and future
 
-Don't let this list stop you, but here are some things we're wary of:
+Please don't let this list stop you, but here are some things we're wary of:
 
 * Gore, body horror, etc.
 * Slapstick

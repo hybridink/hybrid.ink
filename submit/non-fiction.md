@@ -13,7 +13,7 @@ title: Creative Non-Fiction Submissions
 * *Or* a single field of interest tied together by eclectic stories
 * Non-fiction on a topic that the author has first-hand experience with
 
-Don't let this stop you, but here are some things we're wary of:
+Please don't let this stop you, but here are some things we're wary of:
 
 * Lists of facts
 * Lists of events

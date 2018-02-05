@@ -25,6 +25,13 @@
         height: 0px;
         width: 0px;
     }
+
+    @include media-query($on-palm) {
+        & {
+            float: none;
+            width: 100%;
+        }
+    }
 }
 
 .site-nav {
@@ -53,10 +60,13 @@
         & {
             float: none;
         }
+        ul {
+            text-align: center;
+            margin: 0 auto;
+            padding: 0;
+        }
         .page-link {
             text-align: center;
-            width: 40%;
-            margin: 0 auto;
         }
     }
 }
@@ -119,6 +129,7 @@
 
 .footer-heading {
     font-size: 18px;
+    font-weight: 300;
     margin-bottom: $spacing-unit / 2;
 }
 

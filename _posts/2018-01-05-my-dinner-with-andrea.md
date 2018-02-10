@@ -5,7 +5,10 @@ title:  My Dinner with Andrea by Jen Durbent
 
 {{site.brand}} is pleased to announce our inaugural publication of the novel *My Dinner with Andrea* by Jen Durbent, a story of love, hate, and, occasionally, tacos.
 
-Keep an eye out in the next few weeks for more information, teasers, and sales!
+<script type="text/javascript">
+window.location.replace('/my-dinner-with-andrea')
+</script>
+[**See the product page here**](/my-dinner-with-andrea)
 
 -----
 

@@ -14,6 +14,8 @@ title: My Dinner with Andrea - Chapter 1
 
 [&larr; back to *My Dinner with Andrea*](..)
 
+<div class="announcement"><strong>Content Notice:</strong> This excerpt contains frank discussion of sex.</div>
+
 "Faith?" came the voice behind her; she rose and looked at Andrea. Andrea, another tall girl---even taller than usual---visibly trans in a "fuck you" kind of way. *So pretty*. If she had Andrea's transition timeline, Faith would look at it on the Internet and just cry over it, her own dysphoria sucking out hope.
 
 "Andrea?"

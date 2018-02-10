@@ -1,9 +1,15 @@
 mdwa:
     title: My Dinner with Andrea
     author: Jen Durbent
-    page: my-dinner-with-andrea
+    page: /my-dinner-with-andrea
+    # cover: ...
+    sample_chapter: /my-dinner-with-andrea/sample-chapter
     publication_date: 2018-03-01
     for_sale: false
+    coming_soon: true
+    publisher_intro: |
+        _Hybrid Ink_ is pleased to announce our inaugural publication of the novel *My Dinner with Andrea* by Jen Durbent, a story of love, hate, and, occasionally, tacos.
+    # cover: ''
     synopsis: |
         Faith has started dating again - with the blessing of her wife - to find someone to connect with. Andrea seems to be a good match in many ways. The world is a difficult place for two trans women dating, but when you take into account neo-Nazis, a rapist, and some overzealous cops, it can feel downright impossible.
     back_cover: |
@@ -16,6 +22,17 @@ mdwa:
         Oh, but there's also video games, polyamory, and living visibly trans in a small American town. And tacos.
 
         Dear reader, I got a story for you.
+    # praise: []
+    advance_praise:
+        -
+            text: |
+                I found *My Dinner with Andrea* to be stunning. I see a lot of Faith in myself, and a lot of Andrea in who I want to be. It's an engaging and intimate work, and I'm proud to have it as the inaugural publication for _Hybrid Ink_.
+            from: |
+                Madison Scott-Clary, _Hybrid_ editor-in-chief
+        -
+            text: |
+                [*My Dinner with Andrea*] feels very personal, especially with the narrator's engagement. Very enjoyable!
+            from: R. Reed
     isbn:
         print: 978-1-948743-00-6
         epub: 978-1-948743-01-3
@@ -23,15 +40,16 @@ mdwa:
         gumroad:
             ebook: https://gum.co/mdwa-ebook
             print: https://gum.co/mdwa-print
-        goodreads: ''
-        amazon: ''
-        bn: ''
-        kirkus: ''
-        books2read: ''
+        # goodreads: ''
+        # amazon: ''
+        # bn: ''
+        # kirkus: ''
+        # books2read: ''
 tlw:
     title: The Last Workshop
     author: John Minichillo
-    page: the-last-workshop
+    page: /the-last-workshop
+    sample_chapter: ...
     publication_date: 2018-05-01
     for_sale: false
     synopsis: |
@@ -54,7 +72,7 @@ tlw:
         Authors, agents, coworkers, and loved ones.
 
         When, against all odds, the famous writer does die, the reunion turns into a memorial.
-        
+
         A memorial, and one last workshop.
     isbn:
         print: ...

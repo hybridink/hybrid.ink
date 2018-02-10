@@ -1,0 +1,39 @@
+.catalog-page {
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .pane {
+            flex: 1 1 45%;
+            padding: 1rem;
+
+            img {
+                max-width: 100%;
+                margin: 0 auto;
+                max-height: 400px;
+                display: block;
+            }
+
+            @include media-query($on-laptop) {
+                max-width: none;
+            }
+        }
+    }
+
+    .pane {
+        &.praise, &.advance-praise {
+            hr {
+                width: 50%;
+                margin: 1rem auto;
+            }
+        }
+        .sample-chapter {
+            font-size: 20pt;
+            display: block;
+            margin: 0.5rem auto;
+            text-align: center;
+        }
+    }
+}

@@ -49,7 +49,7 @@ tlw:
     title: The Last Workshop
     author: John Minichillo
     page: /the-last-workshop
-    sample_chapter: ...
+    # sample_chapter: ...
     publication_date: 2018-05-01
     for_sale: false
     synopsis: |

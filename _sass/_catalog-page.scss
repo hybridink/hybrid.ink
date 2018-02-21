@@ -29,8 +29,11 @@
                 margin: 1rem auto;
             }
         }
+        &.purchase {
+            text-align: center;
+        }
         .sample-chapter {
-            font-size: 20pt;
+            font-size: 16pt;
             display: block;
             margin: 0.5rem auto;
             text-align: center;

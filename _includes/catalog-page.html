@@ -2,7 +2,7 @@
     <div class="box cover">
         <div class="pane front-cover">
             <img src="
-                {% if include.item.cover %}{{ include.item.cover }}{% else %}/images/covers/coming-soon/large.png{% endif %}" />
+                {% if include.item.cover %}{{ include.item.cover.large }}{% else %}/images/covers/coming-soon/large.png{% endif %}" />
         </div>
         <div class="pane back-cover">
             <blockquote>
@@ -16,6 +16,18 @@
         <a class="sample-chapter" href="{{ include.item.sample_chapter }}"><strong>Read a sample chapter here!</strong></a>
         {% endif %}
     </div>
+    {% if include.item.for_sale %}
+    <hr />
+    <div class="pane purchase">
+        <h3>{% if include.item.coming_soon %}Preorder{% else %}Purchase{% endif %} <em>{{ include.item.title }}</em></h3>
+        {% if include.item.sites.gumroad.ebook-overlay %}
+        {{ include.item.sites.gumroad.ebook-overlay }}
+        {% endif %}
+        {% if include.item.sites.gumroad.print-overlay %}
+        {{ include.item.sites.gumroad.print-overlay }}
+        {% endif %}
+    </div>
+    {% endif %}
     <hr/>
     <div class="pane publisher-info">
         <h2><em>{{ include.item.title }}</em>{% if include.item.coming_soon %} &mdash; coming {{ include.item.publication_date }}{% endif %}</h2>

@@ -2,14 +2,15 @@ mdwa:
     title: My Dinner with Andrea
     author: Jen Durbent
     page: /my-dinner-with-andrea
-    # cover: ...
+    cover:
+        large: /images/covers/my-dinner-with-andrea/large.jpg
+        small: /images/covers/my-dinner-with-andrea/small.jpg
     sample_chapter: /my-dinner-with-andrea/sample-chapter
     publication_date: 2018-03-01
-    for_sale: false
+    for_sale: true
     coming_soon: true
     publisher_intro: |
         _Hybrid Ink_ is pleased to announce our inaugural publication of the novel *My Dinner with Andrea* by Jen Durbent, a story of love, hate, and, occasionally, tacos.
-    # cover: ''
     synopsis: |
         Faith has started dating again - with the blessing of her wife - to find someone to connect with. Andrea seems to be a good match in many ways. The world is a difficult place for two trans women dating, but when you take into account neo-Nazis, a rapist, and some overzealous cops, it can feel downright impossible.
     back_cover: |
@@ -36,10 +37,17 @@ mdwa:
     isbn:
         print: 978-1-948743-00-6
         epub: 978-1-948743-01-3
+        mobi: 978-1-948743-02-0
     sites:
         gumroad:
-            ebook: https://gum.co/mdwa-ebook
-            print: https://gum.co/mdwa-print
+            ebook-link: https://gum.co/mdwa-ebook
+            ebook-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/mdwa-ebook" target="_blank">Purchase <em>My Dinner with Andrea</em> (e-book)</a>
+            print-link: https://gum.co/mdwa-print
+            print-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/mdwa-print" target="_blank">Purchase <em>My Dinner with Andrea</em> (print)</a>
         # goodreads: ''
         # amazon: ''
         # bn: ''

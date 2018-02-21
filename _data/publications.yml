@@ -3,6 +3,8 @@ mdwa:
     author: Jen Durbent
     page: /my-dinner-with-andrea
     cover:
+        by: |
+            <a href="http://irisjay.net" target="_blank">Iris Jay</a>
         large: /images/covers/my-dinner-with-andrea/large.jpg
         small: /images/covers/my-dinner-with-andrea/small.jpg
     sample_chapter: /my-dinner-with-andrea/sample-chapter

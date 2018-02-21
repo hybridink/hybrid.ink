@@ -62,4 +62,9 @@
         <h3>About {{ include.item.author }}</h3>
         {{ site.data.authors[include.item.author].bio|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
     </div>
+    {% if include.item.cover.by %}
+    <div class="pane illustrator">
+        <p>Cover by {{ include.item.cover.by }}</p>
+    </div>
+    {% endif %}
 </div>

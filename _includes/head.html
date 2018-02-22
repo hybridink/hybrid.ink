@@ -19,7 +19,7 @@
     {% endif %}
     <meta property="og:site_name" content="HYBRID Ink, LLC" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ '/images/logo.png' | absolute_url }}" />
+    <meta property="og:image" content="{% if page.img %}{{ page.img | absolute_url }}{% else %}{{ '/images/logo.png' | absolute_url }}{% endif %}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:description" content="{{ site.description }}{% if page.layout == 'post' %} | {{ page.title|xml_escape }}{% endif %}" />
 
@@ -28,7 +28,7 @@
     <meta name="twitter:site" content="@hybrid_ink" />
     <meta name="twitter:title" content="HYBRID Ink, LLC{% if page.title %} | {{ page.title|xml_escape }}{% endif %}" />
     <meta name="twitter:description" content="{{ site.description }}{% if page.layout == 'post' %} | {{ page.title|xml_escape }}{% endif %}" />
-    <meta name="twitter:image" content="{{ '/images/favicon.png' | absolute_url }}" />
+    <meta name="twitter:image" content="{% if page.img %}{{ page.img | absolute_url }}{% else %}{{ '/images/favicon.png' | absolute_url }}{% endif %}" />
 
     <!-- JSON-LD metadata -->
     <script type="application/ld+json">

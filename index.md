@@ -2,6 +2,14 @@
 layout: default
 ---
 
+<div class="promo">
+<h2>Jen Durbent's <em>My Dinner with Andrea</em> now available!</h2>
+
+<div class="col-40"><img src="/images/covers/my-dinner-with-andrea/medium.jpg" alt="The cover of My Dinner with Andrea" /></div>
+<div class="col-60"><p>{{site.brand}} is pleased to announce our inaugural publication of the novel <em>My Dinner with Andrea</em> by Jen Durbent, a story of love, hate, and, occasionally, tacos.</p>
+<p><a href="/my-dinner-with-andrea">Read more and purchase here.</a></p></div>
+</div>
+
 <div class="hero">
 <h2>{{site.name}}</h2>
 

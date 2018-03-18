@@ -24,13 +24,21 @@
 
     .pane {
         &.praise, &.advance-praise {
-            hr {
-                width: 50%;
-                margin: 1rem auto;
+            .praise-item {
+                margin-bottom: 2em;
             }
         }
         &.purchase {
             text-align: center;
+
+            .stores {
+                list-style-type: none;
+                margin-left: 0;
+
+                li {
+                    padding: 1em;
+                }
+            }
         }
         .sample-chapter {
             font-size: 16pt;

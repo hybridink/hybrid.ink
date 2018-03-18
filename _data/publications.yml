@@ -10,7 +10,7 @@ mdwa:
     sample_chapter: /my-dinner-with-andrea/sample-chapter
     publication_date: 2018-03-01
     for_sale: true
-    coming_soon: true
+    coming_soon: false
     publisher_intro: |
         _Hybrid Ink_ is pleased to announce our inaugural publication of the novel *My Dinner with Andrea* by Jen Durbent, a story of love, hate, and, occasionally, tacos.
     synopsis: |
@@ -25,7 +25,12 @@ mdwa:
         Oh, but there's also video games, polyamory, and living visibly trans in a small American town. And tacos.
 
         Dear reader, I got a story for you.
-    # praise: []
+    praise:
+        -
+            text: |
+                This is a riveting, intense novel that goes right for the throat. It is definitely not an easy read, and while it has a central romantic storyline and a fairly hopeful ending, and therefore is technically a romance, it didn’t *feel* like a genre romance to me. Instead, it felt more like trans literary fiction, thematically and style-wise. It ripped me open, and I am still reeling from reading it, a week later, as I’m writing this review.
+            link: 'https://coreysbookcorner.wordpress.com/2018/03/02/review-of-my-dinner-with-andrea/'
+            from: Corey's Book Corner
     advance_praise:
         -
             text: |
@@ -50,11 +55,17 @@ mdwa:
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/mdwa-print" target="_blank">Purchase <em>My Dinner with Andrea</em> (print)</a>
-        # goodreads: ''
-        # amazon: ''
-        # bn: ''
+        goodreads: 'https://www.goodreads.com/book/show/38332207-my-dinner-with-andrea'
+        amazon:
+            ebook-link: 'http://a.co/1qmWWQ8'
+            print-link: 'http://a.co/c6Nuzvg'
+        bn:
+            ebook-link: 'https://www.barnesandnoble.com/w/my-dinner-with-andrea-jen-durbent/1128018499'
         # kirkus: ''
-        # books2read: ''
+        books2read: 'https://books2read.com/mdwa'
+        reviews:
+            - link: 'https://coreysbookcorner.wordpress.com/2018/03/02/review-of-my-dinner-with-andrea/'
+              title: Review from Corey's Book Corner
 tlw:
     title: The Last Workshop
     author: John Minichillo

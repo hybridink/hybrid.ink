@@ -20,12 +20,23 @@
     <hr />
     <div class="pane purchase">
         <h3>{% if include.item.coming_soon %}Preorder{% else %}Purchase{% endif %} <em>{{ include.item.title }}</em></h3>
-        {% if include.item.sites.gumroad.ebook-overlay %}
-        {{ include.item.sites.gumroad.ebook-overlay }}
-        {% endif %}
-        {% if include.item.sites.gumroad.print-overlay %}
-        {{ include.item.sites.gumroad.print-overlay }}
-        {% endif %}
+        <ul class="stores">
+            {% if include.item.sites.gumroad.ebook-overlay %}
+            <li>{{ include.item.sites.gumroad.ebook-overlay }}</li>
+            {% endif %}
+            {% if include.item.sites.gumroad.print-overlay %}
+            <li>{{ include.item.sites.gumroad.print-overlay }}</li>
+            {% endif %}
+            {% if include.item.sites.amazon.ebook-link %}
+            <li><a href="{{ include.item.sites.amazon.ebook-link }}" target="_blank">Amazon Kindle</a></li>
+            {% endif %}
+            {% if include.item.sites.amazon.print-link %}
+            <li><a href="{{ include.item.sites.amazon.print-link }}" target="_blank">Amazon Paperback</a></li>
+            {% endif %}
+            {% if include.item.sites.bn.ebook-link %}
+            <li><a href="{{ include.item.sites.bn.ebook-link }}" target="_blank">B&amp;N Nook</a></li>
+            {% endif %}
+        </ul>
     </div>
     {% endif %}
     <hr/>
@@ -37,11 +48,12 @@
     <div class="pane advance-praise">
         <h3>Advance praise for {{ include.item.title }}</h3>
         {% for praise in include.item.advance_praise %}
-        <blockquote>
-            {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
-        </blockquote>
-        <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}</em>
-        {% if forloop.last == false %}<hr/>{% endif %}
+        <div class="praise-item">
+            <blockquote>
+                {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+            </blockquote>
+            <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}</em>
+        </div>
         {% endfor %}
     </div>
     {% endif %}
@@ -49,12 +61,18 @@
     <div class="pane praise">
         <h3>Praise for {{ include.item.title }}</h3>
         {% for praise in include.item.praise %}
-        <blockquote>
-            {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
-        </blockquote>
-        <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}</em>
-        {% if forloop.last == false %}<hr/>{% endif %}
+        <div class="praise-item">
+            <blockquote>
+                {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+            </blockquote>
+            <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}{% if praise.link %} &mdash; <a href="{{ praise.link }}" target="_blank">Read more</a>{% endif %}</em>
+        </div>
         {% endfor %}
+    </div>
+    {% endif %}
+    {% if include.item.sites.goodreads %}
+    <div class="pane goodreads">
+        <h3>See what others are saying on <a href="{{ incnlude.sites.goodreads }}" target="_blank">Goodreads</a></h3>
     </div>
     {% endif %}
     <hr/>

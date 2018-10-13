@@ -73,28 +73,19 @@ tlw:
     # sample_chapter: ...
     publication_date: 2018-05-01
     for_sale: false
+    cover:
+        large: /images/covers/the-last-workshop/large.png
+        small: /images/covers/the-last-workshop/small.png
     synopsis: |
         ...
     back_cover: |
-        The famous writer is dying...
+        At least that's the rumor.
 
-        Or so his students suspect.
+        When the famous writer's secretary contacted the students of the Deep South Writers' Workshop on the his behalf after years of silence, they suspected something was up.
 
-        When the famous writer's secretary starts to get in touch with his old students, they all suspect something is up — perhaps cancer, or some vague heart condition — whether or not that's true.
+        Out of respect for their former mentor, several former students agreed to return to Mississippi for a reunion:
 
-        To that end, Allison, one of the writer's old students, begins organizing a reunion. One last get-together where all of the attendees of the Deep South Writers' Workshop from over the years can get together and reminisce.
-
-        Trent, the true artist.
-
-        Maya, the successful author.
-
-        iMOL and Trisha A., the internet personalities.
-
-        Authors, agents, coworkers, and loved ones.
-
-        When, against all odds, the famous writer does die, the reunion turns into a memorial.
-
-        A memorial, and one last workshop.
+        A final get-together for one last workshop.
     isbn:
         print: ...
         epub: ...

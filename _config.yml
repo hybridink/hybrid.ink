@@ -7,7 +7,7 @@ brand: '<span class="brand upper">Hybrid</span>'
 name: '<span class="brand"><span class="upper">Hybrid</span> Ink</span>'
 company: '<span class="brand"><span class="upper">Hybrid</span> Ink, LLC</span>'
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hybrid.ink" # the base hostname & protocol for your site
+url: "https://hybrid.ink" # the base hostname & protocol for your site
 twitter_username: hybrid_ink
 permalink: pretty
 

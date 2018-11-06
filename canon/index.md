@@ -3,6 +3,8 @@ layout: page
 title: canon by Jen Durbent
 ---
 
+![Las Palomas](/images/covers/canon/palomas-front.s.png)
+
 {{site.brand}} is pleased to announce the return of Jen Durbent with her collection of poems, *canon*! These twenty-two works range in style from haiku to epic and cover a broad range of emotions and topics. Durbent turns her sharp wit to gender, politics, drugs, and even the Tower of Babel.
 
 -----

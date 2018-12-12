@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="promo">
-<h2>John Minichillo's <em>The Last Workshop</em> coming soon!</h2>
+<h2>John Minichillo's <em>The Last Workshop</em> and mx jen durbent's <em>canon</em> now available!</h2>
 
-<div class="col-40"><img src="/images/covers/the-last-workshop/medium.png" alt="The cover of The Last Workshop" /></div>
-<div class="col-60"><p>{{site.brand}} is pleased to announce our second publication of the novel <em>The Last Workshop</em> by John Minichillo. The famous writer is dying --- maybe --- and this smart, funny, and sharp novel follows the alumni of the Deep South Writers' Workshop as they struggle to internalize the end of the writer's career.</p></div>
+<div class="col-40"><img src="/images/news/canon-tlw.jpg" alt="Two stacks of books" /></div>
+<div class="col-60"><p>{{site.brand}} is happy to announce that both Minichillo's <em><a href="/the-last-workshop">The Last Workshop</a></em> and durbent's poetry collection <em><a href="/canon">canon</a></em> are available and ready to be shipped! While they may not make it in time for the holidays, you should have some good reading to bring you into the new year!</p></div>
 </div>
 
 <div class="hero">

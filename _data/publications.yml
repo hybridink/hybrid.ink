@@ -76,13 +76,19 @@ tlw:
     author: John Minichillo
     page: /the-last-workshop
     # sample_chapter: ...
-    publication_date: 2018-05-01
-    for_sale: false
+    publication_date: 2018-12-10
+    for_sale: true
     cover:
         large: /images/covers/the-last-workshop/large.png
         small: /images/covers/the-last-workshop/small.png
+    publisher_intro: |
+        Hybrid is honored to announce our second publication, John Minichillo’s The Last Workshop. The famous writer is dying — maybe — and this smart, funny, and sharp novel follows the alumni of the Deep South Writers’ Workshop as they struggle to internalize the end of the writer’s career.
     synopsis: |
-        ...
+        Lydia, the famous writer's secretary, begins getting in touch with all his forer students at the Deep South Writers' Workshop. Immediately, rumors fly (helped, in no small part, by Lydia herself). Is he sick? Is he dying? He's probably dying. They begin to organize a reunion.
+
+        When the famous writer *does* die, it's a surprise to all, and the reunion becomes a memorial.
+
+        A memorial, and one final workshop.
     back_cover: |
         At least that's the rumor.
 
@@ -92,14 +98,69 @@ tlw:
 
         A final get-together for one last workshop.
     isbn:
-        print: ...
-        epub: ...
+        print: 978-1-948743-03-7
+        epub: 978-1-948743-04-4
+        mobi: 978-1-948743-05-1
     sites:
         gumroad:
-            ebook: ...
-            print: ...
-        goodreads: ''
-        amazon: ''
-        bn: ''
-        kirkus: ''
-        books2read: ''
+            ebook: https://gum.co/tlw-ebook
+            ebook-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/tlw-ebook" target="_blank">Purchase <em>The Last Workshop</em> (e-book)</a>
+            print: https://gum.co/tlw-print
+            print-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/tlw-print" target="_blank">Purchase <em>The Last Workshop</em> (Paperback)</a>
+        goodreads: 'https://www.goodreads.com/book/show/43203132-the-last-workshop'
+        amazon:
+            ebook-link: http://a.co/d/corw6VK
+            print-link: http://a.co/d/70KJuSn
+        bn:
+            print-link: https://www.barnesandnoble.com/w/the-last-workshop-john-minichillo/1129951200?ean=9781948743037
+        reviews: []
+        books2read: 'books2read.com/tlw-minichillo'
+canon:
+    title: canon
+    author: mx jen durbent
+    page: /canon
+    # sample_chapter: ...
+    publication_date: 2018-12-10
+    for_sale: true
+    cover:
+        large: /images/covers/canon/large.png
+        small: /images/covers/canon/small.png
+    publisher_intro: |
+        Hybrid is pleased to announce the return of Jen Durbent with her collection of poems, canon! These twenty-two works range in style from haiku to epic and cover a broad range of emotions and topics. Durbent turns her sharp wit to gender, politics, drugs, and even the Tower of Babel.
+    synopsis: |
+        Hybrid is pleased to announce the return of Jen Durbent with her collection of poems, canon! These twenty-two works range in style from haiku to epic and cover a broad range of emotions and topics. Durbent turns her sharp wit to gender, politics, drugs, and even the Tower of Babel.
+    back_cover: |
+        Our words are the words of Adam, and he
+        named all things, and that makes him a kind
+        of god.
+
+        Eden is our creation-right. Together, we will smash
+        the flaming swords that guard its entrance;
+        we will pass through the valley. We’ll eat fruits
+        and taunt the serpents and claim what is our own.
+    isbn:
+        print: 978-1-948743-06-8
+        epub: 978-1-948743-07-5
+        mobi: 978-1-948743-08-2
+    sites:
+        gumroad:
+            ebook: https://gum.co/canon-ebook
+            ebook-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/canon-ebook" target="_blank">Purchase <em>canon</em> (e-book)</a>
+            print: https://gum.co/tlw-print
+            print-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/canon-print" target="_blank">Purchase <em>canon</em> (Paperback)</a>
+        goodreads: 'https://www.goodreads.com/book/show/43203244-canon'
+        # amazon:
+        #     ebook-link: http://a.co/d/corw6VK
+        #     print-link: http://a.co/d/70KJuSn
+        # bn:
+        #     print-link: https://www.barnesandnoble.com/w/the-last-workshop-john-minichillo/1129951200?ean=9781948743037
+        reviews: []
+        # books2read: 'books2read.com/tlw-minichillo'

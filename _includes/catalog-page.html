@@ -36,6 +36,9 @@
             {% if include.item.sites.bn.ebook-link %}
             <li><a href="{{ include.item.sites.bn.ebook-link }}" target="_blank">B&amp;N Nook</a></li>
             {% endif %}
+            {% if include.item.sites.bn.print-link %}
+            <li><a href="{{ include.item.sites.bn.print-link }}" target="_blank">B&amp;N Paperback</a></li>
+            {% endif %}
         </ul>
     </div>
     {% endif %}

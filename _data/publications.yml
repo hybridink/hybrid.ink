@@ -84,7 +84,7 @@ tlw:
     publisher_intro: |
         Hybrid is honored to announce our second publication, John Minichillo’s The Last Workshop. The famous writer is dying — maybe — and this smart, funny, and sharp novel follows the alumni of the Deep South Writers’ Workshop as they struggle to internalize the end of the writer’s career.
     synopsis: |
-        Lydia, the famous writer's secretary, begins getting in touch with all his forer students at the Deep South Writers' Workshop. Immediately, rumors fly (helped, in no small part, by Lydia herself). Is he sick? Is he dying? He's probably dying. They begin to organize a reunion.
+        Lydia, the famous writer's secretary, begins getting in touch with all his former students at the Deep South Writers' Workshop. Immediately, rumors fly (helped, in no small part, by Lydia herself). Is he sick? Is he dying? He's probably dying. They begin to organize a reunion.
 
         When the famous writer *does* die, it's a surprise to all, and the reunion becomes a memorial.
 
@@ -118,7 +118,7 @@ tlw:
         bn:
             print-link: https://www.barnesandnoble.com/w/the-last-workshop-john-minichillo/1129951200?ean=9781948743037
         reviews: []
-        books2read: 'books2read.com/tlw-minichillo'
+        books2read: 'https://books2read.com/tlw-minichillo'
 canon:
     title: canon
     author: mx jen durbent
@@ -157,10 +157,10 @@ canon:
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/canon-print" target="_blank">Purchase <em>canon</em> (Paperback)</a>
         goodreads: 'https://www.goodreads.com/book/show/43203244-canon'
-        # amazon:
-        #     ebook-link: http://a.co/d/corw6VK
+        amazon:
+            ebook-link: http://a.co/d/1FONbrh
         #     print-link: http://a.co/d/70KJuSn
         # bn:
         #     print-link: https://www.barnesandnoble.com/w/the-last-workshop-john-minichillo/1129951200?ean=9781948743037
         reviews: []
-        # books2read: 'books2read.com/tlw-minichillo'
+        books2read: 'https://books2read.com/canon-durbent'

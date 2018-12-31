@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="promo">
-<h2>John Minichillo's <em>The Last Workshop</em> and mx jen durbent's <em>canon</em> now available!</h2>
+<h2>End of the year sale!</h2>
 
-<div class="col-40"><img src="/images/news/canon-tlw.jpg" alt="Two stacks of books" /></div>
-<div class="col-60"><p>{{site.brand}} is happy to announce that both Minichillo's <em><a href="/the-last-workshop">The Last Workshop</a></em> and durbent's poetry collection <em><a href="/canon">canon</a></em> are available and ready to be shipped! While they may not make it in time for the holidays, you should have some good reading to bring you into the new year!</p></div>
+<div class="col-40"><img src="/images/news/2018-sale.jpg" alt="Hybrid's three 2018 titles" /></div>
+<div class="col-60"><p>One year of {{site.brand}}, three wonderful titles! To help celebrate these wonderful works, we're taking 10% off of <em>everything</em> in our catalog! The sale will last until the end of January 2nd, our founding day, so make sure to come check it out and pick up your favorites! Only available <a href="/2018/12/31/end-of-year-sale/">here</a>!</p></div>
 </div>
 
 <div class="hero">

@@ -17,12 +17,7 @@ Don't let this list stop you, but here are some things we're wary of:
 * Epic poems
 * Song lyrics
 
-And finally, here is a list of things we will not accept presented in a positive light:
-
-* Racism, sexism, homophobia, transphobia, or other forms of discrimination
-* Pedophilia or sex with characters under the age of 18
-* Rape, torture, dubious consent, forced seduction
-* Snuff or Necrophilia
+{% include nope.html %}
 
 Poetry is published either in the form of a collection of a single poet's work or in the form of anthologies. If you have a collection of poetry, please contact us at <hybrid@hybrid.ink> with a query containing and explanation of the collection and some representative works.
 

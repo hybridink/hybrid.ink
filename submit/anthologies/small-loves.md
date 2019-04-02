@@ -36,8 +36,7 @@ Multiple submissions
 Submission rating
 :   G--PG --- this anthology will be read by teens and young adults, so please keep that in mind
 
-How to submit
-:   {% include submission-format.html %}
-
 Schedule
 :   Submissions are now **open**{: class="open" }! Submissions will be accepted until July 15, 2019 at midnight.
+
+{% include submission-format.html %}

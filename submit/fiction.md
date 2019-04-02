@@ -24,7 +24,7 @@ Please don't let this list stop you, but here are some things we're wary of:
 
 If you have any doubts about your content and these lists, please don't hesitate to ask!
 
-## Long form --- ***Open***{: class="open" }
+## Long form --- ***Closed***{: class="closed" }
 
 {{site.name}} is seeking novels, novellas, and novelettes to publish for the 2018 catalog.
 

@@ -32,7 +32,7 @@ We will not accept the following for feasibility, liability, or academic reasons
 
 If you have any doubts about your content and these lists, please don't hesitate to ask!
 
-## Long form --- ***Open***{: class="open" }
+## Long form --- ***Closed***{: class="closed" }
 
 {{site.name}} is seeking longer works of creative non-fiction in the form of memoirs, investigative journalism, essay collections, or books.
 

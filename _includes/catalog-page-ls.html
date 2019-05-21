@@ -1,0 +1,89 @@
+<div class="catalog-page">
+    <div class="box cover">
+        <div class="pane front-cover">
+            <img src="
+                {% if include.item.cover %}{{ include.item.cover.large }}{% else %}/images/covers/coming-soon/large.png{% endif %}" />
+        </div>
+        <div class="pane back-cover">
+            <blockquote>
+                {{ include.item.back_cover|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+            </blockquote>
+        </div>
+    </div>
+    <div class="pane synopsis">
+        {{ include.item.synopsis|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+        {% if include.item.sample_chapter %}
+        <a class="sample-chapter" href="{{ include.item.sample_chapter }}"><strong>Read a sample chapter here!</strong></a>
+        {% endif %}
+    </div>
+    {% if include.item.for_sale %}
+    <hr />
+    <div class="pane purchase">
+        <h3>{% if include.item.coming_soon %}Preorder{% else %}Purchase{% endif %} <em>{{ include.item.title }}</em></h3>
+        <ul class="stores">
+            {% if include.item.sites.gumroad.els-overlay %}
+            <li>{{ include.item.sites.gumroad.els-overlay }}</li>
+            {% endif %}
+            {% if include.item.sites.gumroad.pls-overlay %}
+            <li>{{ include.item.sites.gumroad.pls-overlay }}</li>
+            {% endif %}
+        </ul>
+        <h3>Free copies of {{ include.item.title }} available</h3>
+        <ul>
+            {% if include.item.ls_coupons %}
+            {% for coupon in include.item.ls_coupons %}
+            <li><a href="{{ coupon }}">Claim copy!</a></li>
+            {% endfor %}
+            {% else %}
+            <li>No copies listed. Keep an eye out on <a href="https://twitter.com/hybrid_ink">Twitter</a> or <a href="https://writing.exchange/@hybrid">Mastodon</a> for coupons!</li>
+            {% endif %}
+        </ul>
+    </div>
+    {% endif %}
+    <hr/>
+    <div class="pane publisher-info">
+        <h2><em>{{ include.item.title }}</em>{% if include.item.coming_soon %} &mdash; coming {{ include.item.publication_date }}{% endif %}</h2>
+        {{ include.item.publisher_intro|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+    </div>
+    {% if include.item.advance_praise %}
+    <div class="pane advance-praise">
+        <h3>Advance praise for {{ include.item.title }}</h3>
+        {% for praise in include.item.advance_praise %}
+        <div class="praise-item">
+            <blockquote>
+                {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+            </blockquote>
+            <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}</em>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if include.item.praise %}
+    <div class="pane praise">
+        <h3>Praise for {{ include.item.title }}</h3>
+        {% for praise in include.item.praise %}
+        <div class="praise-item">
+            <blockquote>
+                {{ praise.text|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+            </blockquote>
+            <em>&mdash; {{ praise.from|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify|replace: "<p>", ""|replace: "</p>", "" }}{% if praise.link %} &mdash; <a href="{{ praise.link }}" target="_blank">Read more</a>{% endif %}</em>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if include.item.sites.goodreads %}
+    <div class="pane goodreads">
+        <h3>See what others are saying on <a href="{{ include.item.sites.goodreads }}" target="_blank">Goodreads</a></h3>
+    </div>
+    {% endif %}
+    <hr/>
+    <div class="pane about-author">
+        <h3>About {{ include.item.author }}</h3>
+        {{ site.data.authors[include.item.author].bio|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify }}
+    </div>
+    {% if include.item.cover.by %}
+    <div class="pane illustrator">
+        <p>Cover by {{ include.item.cover.by }}</p>
+    </div>
+    {% endif %}
+</div>

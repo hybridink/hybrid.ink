@@ -60,6 +60,10 @@ mdwa:
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/mdwa-print" target="_blank">Purchase <em>My Dinner with Andrea</em> (print)</a>
+            els-link: https://gum.co/mdwa-els
+            els-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/mdwa-els" target="_blank">Purchase <em>My Dinner with Andrea</em> (e-book) as a <em>libro sospeso</em></a>
         goodreads: 'https://www.goodreads.com/book/show/38332207-my-dinner-with-andrea'
         amazon:
             ebook-link: 'http://a.co/1qmWWQ8'
@@ -111,6 +115,10 @@ tlw:
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/tlw-print" target="_blank">Purchase <em>The Last Workshop</em> (Paperback)</a>
+            els-link: https://gum.co/tlw-els
+            els-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/tlw-els" target="_blank">Purchase <em>The Last Workshop</em> (e-book) as a <em>libro sospeso</em></a>
         goodreads: 'https://www.goodreads.com/book/show/43203132-the-last-workshop'
         amazon:
             ebook-link: http://a.co/d/corw6VK
@@ -156,6 +164,10 @@ canon:
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/canon-print" target="_blank">Purchase <em>canon</em> (Paperback)</a>
+            els-link: https://gum.co/canon-els
+            els-overlay: |
+                <script src="https://gumroad.com/js/gumroad.js"></script>
+                <a class="gumroad-button" href="https://gum.co/canon-els" target="_blank">Purchase <em>canon</em> (e-book) as a <em>libro sospeso</em></a>
         goodreads: 'https://www.goodreads.com/book/show/43203244-canon'
         amazon:
             ebook-link: http://a.co/d/1FONbrh

@@ -19,9 +19,9 @@ How will we?
 
 ## About the anthology
 
-*Forward-Looking: Sex* is an anthology of short fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and E-Book formats, and will be available to download for Kickstarter backers.
+*Forward-Looking: Sex* is an anthology of short fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and e-book formats, as well as, depending on interest, audiobook format.
 
-Submissions are not yet open, pending completion of the Kickstarter campaign, but here is what {{site.brand}} will be looking for:
+Here is what {{site.brand}} will be looking for:
 
 Submission content
 :   We are looking for short story submissions that explore the shape of sex and sexuality in the decades and centuries to come. There is no restriction on gender of characters or perceived orientation, including anywhere on the asexuality spectrum. Neither is there a restriction on the sexual content of the story. Do keep in mind that *Forward-Looking: Sex* is, at it's core, an anthology about sex.
@@ -30,26 +30,29 @@ Submission content
 Submission length
 :   5,000--15,000 words --- if you feel like your story will fall outside this range, let us know!
 
+Genre
+:   So long as the story takes place in the future and meets the other content requirements, anything goes. Shifters? Sure! Post-apocalyptic? Go ahead! Furries or aliens? Of course!
+
 Payment
-:   $0.06 per word --- however, the kickstarter has stretch goals which will increase this rate.
+:   $25 flat rate per story.
 
 Simultaneous submissions
-:   No.
+:   Yes.
 
 Multiple submissions:
 :   Yes --- limit 2.
 
+Prior publication:
+:   Yes, but preference given to stories that have not yet been published.
+
 Submission rating
-:   G--X
-
-How to submit
-:   *Submissions are not yet open.*{: class="closed" } Keep an eye out here for when they do!
-
-<!-- :   
-{% include submission-format.html %}
--->
+:   G--R --- we ask that authors avoid explicit descriptions of sex, but do understand that sometimes that's necessary to the plot. If you have any concerns, don't hesitate to ask!
 
 Schedule
-:   Submissions will be read and responded to within four weeks (but likely faster). From there, submissions will go through a brief editing phase, which will determine final wordcount, whereupon contracts and payment will be sent to the authors.
+:  
+    * Submissions will **open** on March 1, 2019.
+    * Submissions will **close** on July 1, 2020.
+    * Submissions will be read and responded to within four weeks (but likely faster). At this point, accepted submissions will receive contracts.
+    * The anthology will be available for sale within six months of decisions, barring any disasters. Submission contracts will include a sunset clause.
 
-    The anthology will be available for sale within six months of decisions, barring any disasters.
+{% include submission-format.html %}

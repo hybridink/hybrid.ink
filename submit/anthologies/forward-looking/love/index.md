@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Forward-Looking: Love - NOT YET OPEN"
+title: "Forward//Looking: Love - NOT YET OPEN"
 ---
 
-# Forward-Looking: Love
+# Forward//Looking: Love
 
 What will love look like in the future?
 
@@ -11,7 +11,7 @@ What will change about relationships?
 
 What new challenges will face us --- single folks and those in relationships of all shapes --- a hundred years down the line? Five hundred? A thousand?
 
-*Forward-Looking: Love* is an anthology of transfuturistic science-fiction. The stories within will explore the way love, relationship, and identity issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars.
+*Forward//Looking: Love* is an anthology of transfuturistic science-fiction. The stories within will explore the way love, relationship, and identity issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars.
 
 How will society change?
 
@@ -19,7 +19,7 @@ How will we?
 
 ## About the anthology
 
-*Forward-Looking: Love* is an anthology of short fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and e-book formats, as well as, depending on interest, audiobook format.
+*Forward//Looking: Love* is an anthology of short fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and e-book formats, as well as, depending on interest, audiobook format.
 
 Here is what {{site.brand}} will be looking for:
 
@@ -50,8 +50,8 @@ Submission rating
 
 Schedule
 :  
-    * Submissions will **open** on March 1, 2019.
-    * Submissions will **close** on July 1, 2020.
+    * Submissions will **open** on February 1, 2020.
+    * Submissions will **close** on May 1, 2020.
     * Submissions will be read and responded to within four weeks (but likely faster). At this point, accepted submissions will receive contracts.
     * The anthology will be available for sale within six months of decisions, barring any disasters. Submission contracts will include a sunset clause.
 

@@ -7,7 +7,7 @@ title: "Acethetic"
 
 Much of our art, be it written, visual, or otherwise, is based around sexual attraction and the desire for sexuality. Even in stories where the major plot is focused elsewhere, sexuality will often show up in a subplot.
 
-Sexuality is hardly universal, however: though allosexuality may define the media landscape we live in, here in the west, it does not define all of us!
+Sexuality is hardly universal, however: though allosexuality may define the media landscape we live in, it does not define all of us!
 
 This anthology is a place for ace characters to shine. Perhaps your character is striving for recognition against expectations placed on them by society. Perhaps they are simply trying to live a quiet life and meeting unexpected resistance. Either way, *Acethetic* exists for their stories to be heard.
 

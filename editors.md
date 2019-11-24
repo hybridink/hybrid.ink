@@ -9,7 +9,7 @@ title: Editors
 ![Makyo](/images/editors/makyo.png){: class="editor" }
 Madison is a writer, editor, and software developer. After studying music composition at Colorado State University, she began working in open source software, spending her free time working with stories. She writes fiction and poetry, as well as investigative non-fiction, focusing primarily the furry subculture, and began {{ site.brand }} as a means to help promote literature that delves into the meaning of the world around us.
 
-She lives in the Pacific Northwest with her two dogs and her husband, who is sometimes also a dog.
+She lives in the Pacific Northwest with her two dogs and her husband, who is sometimes also a dog. You can find her writing at [makyo.ink](https://makyo.ink).
 {: class="clearfix" }
 
 <div class="announcement">

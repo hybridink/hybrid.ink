@@ -3,7 +3,18 @@ layout: page
 title: Anthologies
 ---
 
-* [*Forward-Looking*](forward-looking)
-    * [*Forward-Looking: Gender*](forward-looking/gender)
-    * [*Forward-Looking: Love*](forward-looking/love)
-    * [*Forward-Looking: Sex*](forward-looking/sex)
+* [*Small Loves: A Queer Microfiction Anthology*](small-loves) --- *Submissions open December 1, 2019 and close on February 1, 2020*
+
+  *Small Loves* is an anthology of micro- and flash-fiction focusing on LGBTQIA+ lives and experiences.
+* [*Acethetic*](acethetic) --- *Submissions open December 1, 2019 and close on March 1, 2020*
+
+  *Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality.
+* [*Genderful*](genderful) --- *Submissions open December 1, 2019 and close on March 1, 2020*
+
+  *Genderful* is a furry fiction anthology in two parts which aims to explore these questions, letting them play out over the course of 5,000-10,000 words.
+* *Future//Tense* --- A series of anthologies focused on identity in the future.
+    * [*Future//Tense: Gender*](future-tense/gender) --- *Submissions open January 1, 2020 and close on April 1, 2020*
+    * [*Future//Tense: Love*](future-tense/love) --- *Submissions open February 1, 2020 and close on May 1, 2020*
+    * [*Future//Tense: Sex*](future-tense/sex) --- *Submissions open March 1, 2020 and close on June 1, 2020*
+
+<iframe src="https://calendar.google.com/calendar/embed?src=hybrid.ink_85s829p5vf38rk6o5addi90sl0%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>

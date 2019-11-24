@@ -26,12 +26,10 @@ If you have any doubts about your content and these lists, please don't hesitate
 
 ## Long form --- ***Closed***{: class="closed" }
 
-{{site.name}} is seeking novels, novellas, and novelettes to publish for the 2018 catalog.
+{{site.name}} is not currently accepting queries.
+
+## Short form --- ***Closed***{: class="closed" }
 
 Short story collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
-
-## Short form (usually for anthologies) --- ***Closed***{: class="closed" }
-
-Short-form fiction is published in the form of anthologies. These will usually be topical and announced here when the calls are opened. There are currently no open calls.
 
 {% include submission-format.html %}

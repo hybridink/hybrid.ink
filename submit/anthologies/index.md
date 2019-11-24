@@ -3,6 +3,9 @@ layout: page
 title: Anthologies
 ---
 
+* [*Small Loves: A Queer Microfiction Anthology*](small-loves) --- *Submissions open December 1, 2019*
+
+  An anthology of micro- and flash-fiction focusing on LGBTQ+ lives and experiences.
 * [*Acethetic*](acethetic) --- *Submissions open December 1, 2019*
 
   *Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality.

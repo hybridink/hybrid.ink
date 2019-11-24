@@ -5,6 +5,10 @@ title: "Small Loves: A Queer Microfiction Anthology"
 
 # Small Loves: A Queer Microfiction Anthology
 
+Brevity may be the soul of wit, but it's also a unique constraint for writers. How do you get an idea through in as few words as possible? How do you express a mood in 2,000 words? How do you build a character in the space of a tweet or two? It's a challenge, and with the popularity of microfiction on social media and other flash fiction challenges, one that many seem willing to take up!
+
+Inspired by Blue Neustifter's delightful story "Ghost", *Small Loves* will collect the best LGBTQ+ micro- and flash-fiction that writers have to offer.
+
 ## About the anthology
 
 *Small Loves: A Queer Microfiction Anthology* is an anthology of micro- and flash-fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and eBook formats.
@@ -12,7 +16,7 @@ title: "Small Loves: A Queer Microfiction Anthology"
 Here is what {{site.brand}} will be looking for:
 
 Submission content
-:   We are looking for micro- and flash-fiction submissions that explore queer  and minority identities. There is no restriction on the gender, expression, orientation, relationship configuration, or ace/aro spectrum of the characters, but the stories should focus on those topics. There is no restriction on genre.
+:   We are looking for micro- and flash-fiction submissions that explore queer  and minority identities. There is no restriction on the gender, expression, orientation, relationship configuration, or ace/aro spectrum of the characters, but the stories should focus on those topics. There is no restriction on genre. We are particularly keen on featuring #OwnVoices authors.
 
     The topics in this anthology will be particularly useful to teens and young adults. While your stories needn't contain characters of that age range, keep in mind that we will be attempting to reach the audience who will benefit most from hearing stories with which they identify. As such, we will be particularly wary of tragedies, though please do not let that stop you from submitting. While stories about coming out are particularly important to such a demographic, please don't hesitate to also focus on day to day life, transition, relationships, and so on.
 
@@ -28,7 +32,7 @@ Submission length
 :   200-2,000 words --- 2,000 is a hard upper limit, but if you feel like you will wind up with less than 200 words, do let us know.
 
 Rate
-:   Flat $20.00 per accepted work.
+:   2&frac12;&cent; per word.
 
 Simultaneous submissions
 :   Yes, but please inform us if you are also submitting to other sources.

@@ -7,9 +7,9 @@ title: "Small Loves: A Queer Microfiction Anthology"
 
 ## About the anthology
 
-*Small Loves: A Queer Microfiction Anthology* is an anthology of micro- and flash-fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and eBook formats, and will be available.
+*Small Loves: A Queer Microfiction Anthology* is an anthology of micro- and flash-fiction edited by Madison Scott-Clary. It will comprise several pieces from diverse authors. The anthology will be released in both physical and eBook formats.
 
-Submissions are not yet open, pending hammering out further details, but here is what {{site.brand}} will be looking for:
+Here is what {{site.brand}} will be looking for:
 
 Submission content
 :   We are looking for micro- and flash-fiction submissions that explore queer  and minority identities. There is no restriction on the gender, expression, orientation, relationship configuration, or ace/aro spectrum of the characters, but the stories should focus on those topics. There is no restriction on genre.
@@ -20,6 +20,9 @@ Submission content
 
     Additionally, we will be looking for black-and-white art to complete the anthology, with the goal of at least one image per story. A separate call will be made for this down the line.
     {% include nope.html %}
+
+Submission rating
+:   G--PG --- this anthology will be read by teens and young adults, so please keep that in mind
 
 Submission length
 :   200-2,000 words --- 2,000 is a hard upper limit, but if you feel like you will wind up with less than 200 words, do let us know.
@@ -33,10 +36,14 @@ Simultaneous submissions
 Multiple submissions
 :   Yes --- limit 5; a maximum of 2 submissions per author will be published.
 
-Submission rating
-:   G--PG --- this anthology will be read by teens and young adults, so please keep that in mind
+Prior publication:
+:   Yes, but preference given to stories that have not yet been published.
 
 Schedule
-:   Submissions are now **open**{: class="open" }! Submissions will be accepted until July 15, 2019 at midnight.
+:  
+    * Submissions will **open** on December 1, 2019.
+    * Submissions will **close** on February 1, 2020.
+    * Submissions will be read and responded to within four weeks (but likely faster). At this point, accepted submissions will receive contracts.
+    * The anthology will be available for sale within six months of decisions, barring any disasters. Submission contracts will include a sunset clause.
 
 {% include submission-format.html %}

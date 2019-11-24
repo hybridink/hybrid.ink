@@ -19,6 +19,8 @@ Don't let this list stop you, but here are some things we're wary of:
 
 {% include nope.html %}
 
+{{site.name}} is not currently accepting queries.
+
 Poetry is published either in the form of a collection of a single poet's work or in the form of anthologies. If you have a collection of poetry, please contact us at <hybrid@hybrid.ink> with a query containing and explanation of the collection and some representative works.
 
 Anthologies will usually be topical and announced here when the calls are opened. There are currently no open calls.

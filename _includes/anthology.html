@@ -1,0 +1,57 @@
+<h1>{{ include.anthology.title }}</h1>
+
+{{ include.anthology.description|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}
+
+<h2>About the anthology</h2>
+
+{{ include.anthology.about|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}
+
+<p>Here is what {{site.brand}} will be looking for:</p>
+
+<dl>
+    <dt>Submission content</dt>
+    <dd>
+        {{ include.anthology.content|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}
+        {% include nope.html %}
+    </dd>
+    <dt>Submission genre</dt>
+    <dd>{{ include.anthology.genre|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Submission rating</dt>
+    <dd>{{ include.anthology.rating|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Submission length</dt>
+    <dd>{{ include.anthology.length|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Rate</dt>
+    <dd>{{ include.anthology.rate|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Simultaneous submissions</dt>
+    <dd>{{ include.anthology.restrictions.simultaneous|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Multiple submissions</dt>
+    <dd>{{ include.anthology.restrictions.simultaneous|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Prior publication</dt>
+    <dd>{{ include.anthology.restrictions.simultaneous|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dt>Schedule</dt>
+    <dd>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Submissions <strong class="open">open</strong></td>
+                    <td>{{ include.anthology.schedule.open|markdownify }}</td>
+                </tr>
+                <tr>
+                    <td>Submissions <strong class="closed">close</strong></td>
+                    <td>{{ include.anthology.schedule.close|markdownify }}</td>
+                </tr>
+                <tr>
+                    <td>Submissions read and responded to</td>
+                    <td>{{ include.anthology.schedule.read|markdownify }}</td>
+                </tr>
+                <tr>
+                    <td>Anthology available for sale</td>
+                    <td>{{ include.anthology.schedule.available|markdownify }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Submission contracts will include a sunset clause. You may see an example contract <a href="/contracts/serial-digital.pdf">here</a>.</p>
+    </dd>
+</dl>
+
+{% include submission-format.html %}

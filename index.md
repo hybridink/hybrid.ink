@@ -3,10 +3,7 @@ layout: default
 ---
 
 <div class="promo">
-<h2>End of the year sale!</h2>
 
-<div class="col-40"><img src="/images/news/2018-sale.jpg" alt="Hybrid's three 2018 titles" /></div>
-<div class="col-60"><p>One year of {{site.brand}}, three wonderful titles! To help celebrate these wonderful works, we're taking 10% off of <em>everything</em> in our catalog! The sale will last until the end of January 2nd, our founding day, so make sure to come check it out and pick up your favorites! Only available <a href="/2018/12/31/end-of-year-sale/">here</a>!</p></div>
 </div>
 
 <div class="hero">
@@ -15,7 +12,7 @@ layout: default
 <p>{{site.brand}} is a small publisher focused on thoughtful fiction, exploratory poetry, and creative non-fiction.</p>
 </div>
 
-<div class="col-60"><p>The goal of {{site.brand}} is to provide well-versed and sophisticated works of fiction, poetry, and creative non-fiction. We want writing that gets us thinking about ourselves, stories that span genres, words that change the way we look at the world. {{site.brand}} is now open for novel and non-fiction book queries, and will be open soon for shorter works to be included in anthologies.</p></div>
+<div class="col-60"><p>The goal of {{site.brand}} is to provide well-versed and sophisticated works of fiction, poetry, and creative non-fiction. We want writing that gets us thinking about ourselves, stories that span genres, words that change the way we look at the world. {{site.brand}} is now open for anthology submissions, and will soon re-open for larger work queries.</p></div>
 <div class="col-40"><h2 class="announcement"><a href="/submit">Learn More</a></h2></div>
 
 -----
@@ -26,6 +23,7 @@ layout: default
     <p><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
     <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} &bullet; <a href="/editors#{{ post.author }}">{{ post.author }}</a>{% endif %}{% if post.meta %} &bullet; {{ post.meta }}{% endif %}</p>
     {{ post.excerpt }}
+    <p><a href="{{ post.url }}">Read more...</a></p>
 </div>
 {% endfor %}
 {% if site.posts.size > 5 %}

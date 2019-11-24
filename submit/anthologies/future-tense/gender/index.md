@@ -50,9 +50,12 @@ Prior publication:
 
 Schedule
 :  
-    * Submissions will **open** on January 1, 2020.
-    * Submissions will **close** on April 1, 2020.
-    * Submissions will be read and responded to within four weeks (but likely faster). At this point, accepted submissions will receive contracts.
-    * The anthology will be available for sale within six months of decisions, barring any disasters. Submission contracts will include a sunset clause.
+    ---|---
+    Submissions **open** | January 1, 2020
+    Submissions **close** | April 1, 2020
+    Submissions read and responded to | Within four weeks
+    Anthology available for sale | Within six months of decisions
+
+    Submission contracts will include a sunset clause.
 
 {% include submission-format.html %}

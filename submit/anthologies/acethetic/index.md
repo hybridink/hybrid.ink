@@ -21,11 +21,14 @@ Submission content
 :   We are looking for short story submissions that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality. Aromantic characters also welcome, of course! We are particularly keen on featuring #OwnVoices authors.
     {% include nope.html %}
 
-Submission length
-:   5,000--15,000 words --- if you feel like you will fall outside this range, let us know!
+Submission rating
+:   G--R --- we ask that authors avoid explicit descriptions of sex, but do understand that sometimes that's necessary to the plot. If you have any concerns, don't hesitate to ask!
 
 Genre
 :   While there is no restriction on genre of submitted stories, we will aim for a cohesive anthology after the fact. For instance, if we receive more speculative fiction stories than contemporary fiction, that may play a role in accepting stories. Literary fiction, speculative fiction, shifters, furries...give us your best!
+
+Submission length
+:   5,000--15,000 words --- if you feel like you will fall outside this range, let us know!
 
 Payment
 :   $25 flat rate per story.
@@ -38,9 +41,6 @@ Multiple submissions:
 
 Prior publication:
 :   Yes, but preference given to stories that have not yet been published.
-
-Submission rating
-:   G--R --- we ask that authors avoid explicit descriptions of sex, but do understand that sometimes that's necessary to the plot. If you have any concerns, don't hesitate to ask!
 
 Schedule
 :  

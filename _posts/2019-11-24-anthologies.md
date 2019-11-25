@@ -14,19 +14,19 @@ With both of these in mind, I am pulling together several anthologies over the n
 
 I have six anthologies planned which I am excited to share:
 
-* [*Small Loves: A Queer Microfiction Anthology*](small-loves) --- *Submissions open December 1, 2019 and close on February 1, 2020*
+* [*Small Loves: A Queer Microfiction Anthology*](/submit/anthologies/small-loves) --- *Submissions open December 1, 2019 and close on February 1, 2020*
 
   *Small Loves* is an anthology of micro- and flash-fiction focusing on LGBTQIA+ lives and experiences.
-* [*Acethetic*](acethetic) --- *Submissions open December 1, 2019 and close on March 1, 2020*
+* [*Acethetic*](/submit/anthologies/acethetic) --- *Submissions open December 1, 2019 and close on March 1, 2020*
 
   *Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality.
-* [*Genderful*](genderful) --- *Submissions open December 1, 2019 and close on March 1, 2020*
+* [*Genderful*](/submit/anthologies/genderful) --- *Submissions open December 1, 2019 and close on March 1, 2020*
 
   *Genderful* is a furry fiction anthology in two parts which aims to explore these questions, letting them play out over the course of 5,000-10,000 words.
 * *Future//Tense* --- A series of anthologies focused on identity in the future.
-    * [*Future//Tense: Gender*](future-tense/gender) --- *Submissions open January 1, 2020 and close on April 1, 2020*
-    * [*Future//Tense: Love*](future-tense/love) --- *Submissions open February 1, 2020 and close on May 1, 2020*
-    * [*Future//Tense: Sex*](future-tense/sex) --- *Submissions open March 1, 2020 and close on June 1, 2020*
+    * [*Future//Tense: Gender*](/submit/anthologies/future-tense/gender) --- *Submissions open January 1, 2020 and close on April 1, 2020*
+    * [*Future//Tense: Love*](/submit/anthologies/future-tense/love) --- *Submissions open February 1, 2020 and close on May 1, 2020*
+    * [*Future//Tense: Sex*](/submit/anthologies/future-tense/sex) --- *Submissions open March 1, 2020 and close on June 1, 2020*
 
 The submission opening and closing dates are staggered to hopefully give folks the chance to work towards one or more of them (and give me a chance to actually produce them!), and I look forward to seeing work from a wide variety of authors.
 

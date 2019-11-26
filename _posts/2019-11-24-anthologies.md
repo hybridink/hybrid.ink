@@ -22,7 +22,7 @@ I have six anthologies planned which I am excited to share:
   *Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality.
 * [*Genderful*](/submit/anthologies/genderful) --- *Submissions open December 1, 2019 and close on March 1, 2020*
 
-  *Genderful* is a furry fiction anthology in two parts which aims to explore these questions, letting them play out over the course of 5,000-10,000 words.
+  *Genderful* is a furry fiction anthology in two parts which aims to explore how furry and gender interact.
 * *Future//Tense* --- A series of anthologies focused on identity in the future.
     * [*Future//Tense: Gender*](/submit/anthologies/future-tense/gender) --- *Submissions open January 1, 2020 and close on April 1, 2020*
     * [*Future//Tense: Love*](/submit/anthologies/future-tense/love) --- *Submissions open February 1, 2020 and close on May 1, 2020*

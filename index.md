@@ -9,11 +9,13 @@ layout: default
 <div class="hero">
 <h2>{{site.name}}</h2>
 
-<p>{{site.brand}} is a small publisher focused on thoughtful fiction, exploratory poetry, and creative non-fiction.</p>
+<p>{{site.brand}} is a small publisher focused on thoughtful fiction, exploratory poetry, and creative non-fiction.<br />
+<a href="/about">Learn more...</a></p>
 </div>
 
 <div class="col-60"><p>The goal of {{site.brand}} is to provide well-versed and sophisticated works of fiction, poetry, and creative non-fiction. We want writing that gets us thinking about ourselves, stories that span genres, words that change the way we look at the world. {{site.brand}} is now open for anthology submissions, and will soon re-open for larger work queries.</p></div>
-<div class="col-40"><h2 class="announcement"><a href="/submit">Learn More</a></h2></div>
+
+<div class="col-40"><h2 class="announcement"><a href="/submit">Submit to {{site.brand}}</a></h2></div>
 
 -----
 

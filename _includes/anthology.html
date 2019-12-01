@@ -1,4 +1,4 @@
-<h1>{{ include.anthology.title }}</h1>
+<h1>{{ include.anthology.title }} &mdash; {% if include.anthology.open %}<strong class="open"><em>Open</em></strong>{% else %}<strong class="closed"><em>Closed</em></strong>{% endif %}</h1>
 
 {{ include.anthology.description|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}
 

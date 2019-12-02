@@ -23,11 +23,11 @@
     <dt>Rate</dt>
     <dd>{{ include.anthology.rate|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
     <dt>Simultaneous submissions</dt>
-    <dd>{{ include.anthology.restrictions.simultaneous|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dd>{% if include.anthology.restrictions.simultaneous %}Yes, but please inform us if you are also submitting to other sources.{% else %}Please only submit one entry.{% endif %}</dd>
     <dt>Multiple submissions</dt>
-    <dd>{{ include.anthology.restrictions.multiple|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dd>{% if include.anthology.restrictions.multiple > 0 %}Yes &mdash; limit {{ include.anthology.restrictions.multiple }}.{% if include.anthology.restrictions.multiple_max > 0 %} A maximum of {{ include.anthology.restrictions.multiple_max }} will be published.{% endif %}{% else %}No, please only submit once.{% endif %}</dd>
     <dt>Prior publication</dt>
-    <dd>{{ include.anthology.restrictions.prior|replace: "_Hybrid_", site.brand|replace: "_Hybrid Ink_", site.name|markdownify}}</dd>
+    <dd>{% if include.anthology.restrictions.prior %}Previously published works are allowed, but preference given to entries that have not yet been published.{% else %}Unpublished stories only{% endif}</dd>
     <dt>Schedule</dt>
     <dd>
         <table>

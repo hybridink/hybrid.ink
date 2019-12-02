@@ -26,7 +26,7 @@ small-loves:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 5; a maximum of 2 submissions per author will be published.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: December 1, 2019
         close: February 1, 2020
@@ -57,7 +57,7 @@ acethetic:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 2.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: December 1, 2019
         close: March 1, 2020
@@ -102,7 +102,7 @@ genderful:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 2.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: December 1, 2019
         close: March 1, 2020
@@ -139,7 +139,7 @@ future-tense-gender:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 2.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: January 1, 2020
         close: April 1, 2020
@@ -176,7 +176,7 @@ future-tense-love:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 2.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: February 1, 2020
         close: May 1, 2020
@@ -213,7 +213,7 @@ future-tense-sex:
     restrictions:
         simultaneous: Yes, but please inform us if you are also submitting to other sources.
         multiple: Yes --- limit 2.
-        prior: Yes, but preference given to stories that have not yet been published.
+        prior: Previously published stories are allowed, but preference given to stories that have not yet been published.
     schedule:
         open: March 1, 2020
         close: June 1, 2020

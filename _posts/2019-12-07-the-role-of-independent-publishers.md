@@ -1,6 +1,6 @@
 ---
 type: post
-title: "The role of independent publishers"
+title: "From the editor's desk: the role of independent publishers"
 author: Madison
 excerpt_separator: <!--more-->
 ---

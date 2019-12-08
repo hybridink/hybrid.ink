@@ -9,7 +9,7 @@ Earlier today, the ever-delightful Lindsay Ellis came out with a video about her
 
 <!--more-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tuRE55YH8yE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 0 auto;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tuRE55YH8yE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: 0 auto;"></iframe>
 
 In short, publishing with a larger house boils down to the following set of steps:
 

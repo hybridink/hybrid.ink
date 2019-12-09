@@ -5,31 +5,33 @@ title: Fiction Submissions
 
 # Fiction Submissions
 
-{{site.brand}} has no restrictions on genre, but here are some of the things we enjoy:
+{{site.brand}} is keenly interested in the stories we all have to tell and the unique ways we tell them.
 
-* Experienced identity
-* Psychological struggles
-* Coming of age stories
-* Inventive writing styles and techniques
-* New takes on humanity: past, present, and future
+Long form (novellas to novels) --- ***Closed***{: class="closed" }
+:   {{site.name}} is not currently accepting novel queries.
 
-Please don't let this list stop you, but here are some things we're wary of:
+Short form (short story/novelette collections) --- ***Open***{: class="open" }
+:   Short story collections are now being considered. Please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
 
-* Gore, body horror, etc.
-* Slapstick
-* Alternate histories
-* Post-apocalyptic worlds
+Content restrictions
+:   {{site.brand}} has no restrictions on genre, but here are some of the things we enjoy:
 
-{% include nope.html %}
+    * LGBTQIA+ fiction
+    * Experienced identity
+    * Psychological struggles
+    * Coming of age stories
+    * Inventive writing styles and techniques
+    * New takes on humanity: past, present, and future
 
-If you have any doubts about your content and these lists, please don't hesitate to ask!
+    *Please don't let this list stop you*, but here are some things we're wary of:
 
-## Long form --- ***Closed***{: class="closed" }
+    * Gore, body horror, etc.
+    * Slapstick
+    * Alternate histories
+    * Post-apocalyptic worlds
 
-{{site.name}} is not currently accepting queries.
+    {% include nope.html %}
 
-## Short form --- ***Closed***{: class="closed" }
-
-Short story collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
+    If you have any doubts about your content and these lists, please don't hesitate to ask!
 
 {% include submission-format.html %}

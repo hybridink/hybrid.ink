@@ -68,7 +68,7 @@ acethetic:
 #####
 genderful:
     title: Genderful
-    open: false
+    open: true
     description: |-
         As furries, we base large swaths of our identity around species. We search for what fits, we let our species choose us, and find ways to be happy as such.
 

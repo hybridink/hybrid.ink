@@ -5,10 +5,10 @@ title: Fiction Submissions
 
 # Fiction Submissions
 
-{{site.brand}} is keenly interested in the stories we all have to tell and the unique ways we tell them.
+{{site.name}} is keenly interested in the stories we all have to tell and the unique ways we tell them.
 
 Long form (novellas to novels) --- ***Closed***{: class="closed" }
-:   {{site.name}} is not currently accepting novel queries.
+:   {{site.brand}} is not currently accepting novel queries.
 
 Short form (short story/novelette collections) --- ***Open***{: class="open" }
 :   Short story collections are now being considered. Please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.

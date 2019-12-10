@@ -5,10 +5,10 @@ title: Creative Non-Fiction Submissions
 
 # Creative Non-Fiction Submissions
 
-{{site.brand}} is keenly interested in creative non-fiction diving deep into the world we live in.
+{{site.name}} is keenly interested in creative non-fiction diving deep into the world we live in.
 
 Long form --- ***Closed***{: class="closed" }
-:   {{site.name}} is not currently accepting long-form non-fiction queries.
+:   {{site.brand}} is not currently accepting long-form non-fiction queries.
 
 Short form (essay collections) --- ***Open***{: class="closed" }
 :   Essay and letter collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each piece, and the licensing status of each essay or letter.

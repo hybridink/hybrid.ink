@@ -5,24 +5,24 @@ title: Poetry Submissions
 
 # Poetry
 
-{{site.brand}} is keenly interested in the creative use of words and language within poetry. We are interested in seeing poetry of all types and forms, but here are some of the things we enjoy:
+{{site.name}} is keenly interested in the creative use of words and language within poetry.
 
-* Exploration of identity through poetry
-* Classical and modern forms, or formless poetry used effectively
-* Poetry as a means of dealing with or internalizing emotions
+Poetry collectsion --- ***Open***{: class="open" }
+:   {{site.brand}} is currently accepting queries for poetry collections. Please submit a query containing and explanation of the collection and some representative works.
 
-Don't let this list stop you, but here are some things we're wary of:
+Content restrictions:
+:   We are interested in seeing poetry of all types and forms, but here are some of the things we enjoy:
 
-* Limericks
-* Epic poems
-* Song lyrics
+    * Exploration of identity through poetry
+    * Classical and modern forms, or formless poetry used effectively
+    * Poetry as a means of dealing with or internalizing emotions
 
-{% include nope.html %}
+    *Please don't let this list stop you*, but here are some things we're wary of:
 
-{{site.name}} is not currently accepting queries.
+    * Limericks
+    * Epic poems
+    * Song lyrics
 
-Poetry is published either in the form of a collection of a single poet's work or in the form of anthologies. If you have a collection of poetry, please contact us at <hybrid@hybrid.ink> with a query containing and explanation of the collection and some representative works.
-
-Anthologies will usually be topical and announced here when the calls are opened. There are currently no open calls.
+    {% include nope.html %}
 
 {% include submission-format.html %}

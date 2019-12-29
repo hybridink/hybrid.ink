@@ -30,8 +30,8 @@
         </ul>
         <h3>Free copies of {{ include.item.title }} available</h3>
         <ul>
-            {% if include.item.ls_coupons %}
-            {% for coupon in include.item.ls_coupons %}
+            {% if include.item.sites.gumroad.els-coupons %}
+            {% for coupon in include.item.sites.gumroad.els-coupons %}
             <li><a href="{{ coupon }}">Claim copy!</a></li>
             {% endfor %}
             {% else %}

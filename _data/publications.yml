@@ -160,18 +160,20 @@ canon:
         mobi: 978-1-948743-08-2
     sites:
         gumroad:
-            ebook: https://gum.co/canon-ebook
+            ebook: https://gum.co/durbent-canon-ebook
             ebook-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/canon-ebook" target="_blank">Purchase <em>canon</em> (e-book)</a>
+                <a class="gumroad-button" href="https://gum.co/durbent-canon-ebook" target="_blank">Purchase <em>canon</em> (e-book)</a>
             print: https://gum.co/tlw-print
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/canon-print" target="_blank">Purchase <em>canon</em> (Paperback)</a>
-            els-link: https://gum.co/canon-els
+            els-link: https://gum.co/YoTut
             els-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/canon-els" target="_blank">Purchase <em>canon</em> (e-book) as a <em>libro sospeso</em></a>
+                <a class="gumroad-button" href="https://gum.co/YoTut" target="_blank">Purchase <em>canon</em> (e-book) as a <em>libro sospeso</em></a>
+            els-coupons:
+                - https://gum.co/durbent-canon-ebook/haqxdfx
         goodreads: 'https://www.goodreads.com/book/show/43203244-canon'
         amazon:
             ebook-link: http://a.co/d/1FONbrh

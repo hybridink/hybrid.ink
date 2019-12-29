@@ -160,10 +160,10 @@ canon:
         mobi: 978-1-948743-08-2
     sites:
         gumroad:
-            ebook: https://gum.co/canon-ebook
+            ebook: https://gum.co/durbent-canon-ebook
             ebook-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/canon-ebook" target="_blank">Purchase <em>canon</em> (e-book)</a>
+                <a class="gumroad-button" href="https://gum.co/durbent-canon-ebook" target="_blank">Purchase <em>canon</em> (e-book)</a>
             print: https://gum.co/tlw-print
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>

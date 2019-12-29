@@ -168,10 +168,10 @@ canon:
             print-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
                 <a class="gumroad-button" href="https://gum.co/canon-print" target="_blank">Purchase <em>canon</em> (Paperback)</a>
-            els-link: https://gum.co/canon-els
+            els-link: https://gum.co/YoTut
             els-overlay: |
                 <script src="https://gumroad.com/js/gumroad.js"></script>
-                <a class="gumroad-button" href="https://gum.co/canon-els" target="_blank">Purchase <em>canon</em> (e-book) as a <em>libro sospeso</em></a>
+                <a class="gumroad-button" href="https://gum.co/YoTut" target="_blank">Purchase <em>canon</em> (e-book) as a <em>libro sospeso</em></a>
         goodreads: 'https://www.goodreads.com/book/show/43203244-canon'
         amazon:
             ebook-link: http://a.co/d/1FONbrh

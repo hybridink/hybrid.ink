@@ -13,7 +13,7 @@ title: Anthologies
 
   *Genderful* is a furry fiction anthology in two parts which aims to explore how furry and gender interact.
 * *Future//Tense* --- A series of anthologies focused on identity in the future.
-    * [*Future//Tense: Gender*](future-tense/gender) --- <strong class="closed"><em>Closed</em></strong> --- *Submissions open January 1, 2020 and close on April 1, 2020*
+    * [*Future//Tense: Gender*](future-tense/gender) --- <strong class="open"><em>Open</em></strong> --- *Submissions open January 1, 2020 and close on April 1, 2020*
     * [*Future//Tense: Love*](future-tense/love) --- <strong class="closed"><em>Closed</em></strong> --- *Submissions open February 1, 2020 and close on May 1, 2020*
     * [*Future//Tense: Sex*](future-tense/sex) --- <strong class="closed"><em>Closed</em></strong> --- *Submissions open March 1, 2020 and close on June 1, 2020*
 

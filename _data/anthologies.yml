@@ -116,7 +116,7 @@ genderful:
 #####
 future-tense-gender:
     title: "Future//Tense: Gender"
-    open: false
+    open: true
     description: |-
         What will gender look like in the future?
 

@@ -3,7 +3,7 @@ layout: page
 title: Editing
 ---
 
-Editing is as important a part of putting ones works out there as the writing itself. {{site.brand}} offers four levels of editing for authors who do not intend to publish through our house. As all of these are highly dependent on the text, please email us for more information at <mailto:hybrid+editing@hybrid.ink>.
+Editing is as important a part of putting ones works out there as the writing itself. {{site.name}} offers four levels of editing for authors who do not intend to publish through our house. As all of these are highly dependent on the text, please email us for more information at <mailto:hybrid+editing@hybrid.ink>.
 
 ### Proofreading
 

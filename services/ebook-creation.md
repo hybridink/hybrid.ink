@@ -5,7 +5,7 @@ title: E-book creation
 
 The world of e-books is varied and diverse, with formats that support everything from staid, straight-through-to-the-end text to comics and complex documents. While it's easy enough to run one's own document through a file converter to wind up with something ready to sell through various e-book marketplaces, sometimes you want a little something extra.
 
-{{site.brand}} is happy to help work with authors to get their work ready as e-books in popular storefronts such as Amazon, Barnes & Noble, and Ingram Spark. Whether you want something highly customized or simple and straight forward, we're here to help.
+{{site.name}} is happy to help work with authors to get their work ready as e-books in popular storefronts such as Amazon, Barnes & Noble, and Ingram Spark. Whether you want something highly customized or simple and straight forward, we're here to help.
 
 Rate
 :   Ebook creation rates depend on the work involved. The base rate is $50 plus $1 per 1,000 words. However, every project will have different requirements, and we are willing to work on a sliding scale for those whose circumstances make a higher fee less feasible, so please contact us for a quote.

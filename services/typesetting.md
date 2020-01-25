@@ -5,7 +5,7 @@ title: Typesetting and book design
 
 Typesetting and book design is an invisible art. It is something that is only noticed when it's done poorly. When it's done well, the reader can easily find themselves getting lost in the story, diving into the pages like open water. When it's not, the reader can find themselves frustrated and not know why, with the process of reading turned into an onerous slog.
 
-At {{site.brand}}, we take pride in our typesetting and design. It's a fun process, working with the text and the author to come up with something that both helps convey the story and makes for a pleasant reading experience.
+At {{site.name}}, we take pride in our typesetting and design. It's a fun process, working with the text and the author to come up with something that both helps convey the story and makes for a pleasant reading experience.
 
 While we apply all of our knowledge and experience to our own publications, we also provide this service to authors not publishing through us. If you would like a professionally typeset paperback book, we will do all we can to provide you with such at a competitive rate.
 

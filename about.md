@@ -9,4 +9,6 @@ We try not to focus on either genre or literary fiction, and avoid the distincti
 
 We are governed by a [code of conduct](/conduct) and share our thoughts on [what we will and won't publish](/nope). We believe that the work belongs first and foremost to the author and limit our [contracts](/contracts) accordingly.
 
+Despite our name, we are not a hybrid publisher --- that is, we do not charge a fee for submitting your works to us. There is a place for the author-supported model, but we believe that it too easily runs the risk of further marginalizing already marginalized groups.
+
 {{site.brand}} acknowledges that we are headquartered on unceded indigenous land belonging to Coast Salish peoples. We seek to support the varied strategies that indigenous peoples are using to protect their land and their communities, and we commit to dedicating time and resources to working in solidarity. We acknowledge that we, as people living and working on these lands, are accountable to the laws and protocols of the people who have cared for this land since time immemorial. It is our intention to continue learning how to honor this responsibility.

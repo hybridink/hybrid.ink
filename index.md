@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="promo">
+<!-- <div class="promo">
 <p><strong>Holiday shipping:</strong> Looking to get some books for the holidays? Please make sure to order by December 15th for the best chance of getting your package on time!</p>
-</div>
+</div> -->
 
 <div class="hero">
 <h2>{{site.name}}</h2>

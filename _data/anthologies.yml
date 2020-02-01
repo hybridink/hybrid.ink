@@ -154,7 +154,7 @@ future-tense-gender:
 #####
 future-tense-love:
     title: "Future//Tense: Love"
-    open: false
+    open: true
     description: |-
         What will love look like in the future?
 

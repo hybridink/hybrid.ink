@@ -5,7 +5,7 @@ title: Creative Non-Fiction Submissions
 
 # Creative Non-Fiction Submissions
 
-{{site.name}} is keenly interested in creative non-fiction diving deep into the world we live in.
+{{site.name}} is keenly interested in creative non-fiction diving deep into the world we live in. We are particularly focused on the publication and advancement of LGBTQIA+ writing.
 
 Long form --- ***Closed***{: class="closed" }
 :   {{site.brand}} is not currently accepting long-form non-fiction queries.

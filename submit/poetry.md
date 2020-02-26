@@ -5,7 +5,7 @@ title: Poetry Submissions
 
 # Poetry
 
-{{site.name}} is keenly interested in the creative use of words and language within poetry.
+{{site.name}} is keenly interested in the creative use of words and language within poetry. We are particularly focused on the publication and advancement of LGBTQIA+ writing.
 
 Poetry collectsion --- ***Open***{: class="open" }
 :   {{site.brand}} is currently accepting queries for poetry collections. Please submit a query containing and explanation of the collection and some representative works.

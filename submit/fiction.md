@@ -5,7 +5,7 @@ title: Fiction Submissions
 
 # Fiction Submissions
 
-{{site.name}} is keenly interested in the stories we all have to tell and the unique ways we tell them.
+{{site.name}} is keenly interested in the stories we all have to tell and the unique ways we tell them. We are particularly focused on the publication and advancement of LGBTQIA+ writing.
 
 Long form (novellas to novels) --- ***Closed***{: class="closed" }
 :   {{site.brand}} is not currently accepting novel queries.

@@ -9,7 +9,7 @@ layout: default
 <div class="hero">
 <h2>{{site.name}}</h2>
 
-<p>{{site.brand}} is a small publisher focused on thoughtful fiction, exploratory poetry, and creative non-fiction, with a particular interest in LGBTQIA+ writing..<br />
+<p>{{site.brand}} is a small publisher focused on thoughtful fiction, exploratory poetry, and creative non-fiction, with a particular interest in LGBTQIA+ writing.<br />
 <a href="/about">Learn more...</a></p>
 </div>
 

@@ -3,13 +3,13 @@ layout: page
 title: Anthologies
 ---
 
-* [*Small Loves: A Queer Microfiction Anthology*](small-loves) --- <strong class="closed"><em>Closed</em></strong> --- *Submissions open December 1, 2019 and close on February 1, 2020*
+<!-- * [*Small Loves: A Queer Microfiction Anthology*](small-loves) --- <strong class="closed"><em>Closed</em></strong> --- *Submissions open December 1, 2019 and close on February 1, 2020*
 
-  *Small Loves* is an anthology of micro- and flash-fiction focusing on LGBTQIA+ lives and experiences.
+  *Small Loves* is an anthology of micro- and flash-fiction focusing on LGBTQIA+ lives and experiences. -->
 * [*Acethetic*](acethetic) --- <strong class="open"><em>Open</em></strong> --- *Submissions open December 1, 2019 and close on March 1, 2020*
 
   *Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality.
-* [*Genderful*](genderful) --- <strong class="open"><em>Open</em></strong> --- *Submissions open December 1, 2019 and close on March 1, 2020*
+* [*Genderful*](genderful) --- <strong class="open"><em>Open</em></strong> --- *Submissions open December 1, 2019 and close on April 15, 2020*
 
   *Genderful* is a furry fiction anthology in two parts which aims to explore how furry and gender interact.
 * *Future//Tense* --- A series of anthologies focused on identity in the future.

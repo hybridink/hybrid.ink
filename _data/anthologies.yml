@@ -1,6 +1,8 @@
 small-loves:
     title: "Small Loves: A Queer Microfiction Anthology"
+    slug: small-loves
     open: false
+    short_description: "*Small Loves* is an anthology of micro- and flash-fiction focusing on LGBTQIA+ lives and experiences."
     description: |-
         Brevity may be the soul of wit, but it's also a unique constraint for writers. How do you get an idea through in as few words as possible? How do you express a mood in 2,000 words? How do you build a character in the space of a tweet or two? It's a challenge, and with the popularity of microfiction on social media and other flash fiction challenges, one that many seem willing to take up!
 
@@ -38,7 +40,9 @@ small-loves:
 #####
 acethetic:
     title: "Acethetic"
-    open: true
+    slug: acethetic
+    open: false
+    short_description: "*Acethetic* is an anthology focused on short stories that explore the lives of our asexual friends and family. The stories should focus on characters anywhere on the specturm of asexuality."
     description: |-
         Much of our art, be it written, visual, or otherwise, is based around sexual attraction and the desire for sexuality. Even in stories where the major plot is focused elsewhere, sexuality will often show up in a subplot.
 
@@ -70,7 +74,9 @@ acethetic:
 #####
 genderful:
     title: Genderful
+    slug: genderful
     open: true
+    short_description: "*Genderful* is a furry fiction anthology in two parts which aims to explore how furry and gender interact."
     description: |-
         As furries, we base large swaths of our identity around species. We search for what fits, we let our species choose us, and find ways to be happy as such.
 
@@ -116,7 +122,9 @@ genderful:
 #####
 future-tense-gender:
     title: "Future//Tense: Gender"
+    slug: future-tense/gender
     open: true
+    short_description: "*Future//Tense: Gender* is an anthology of transfuturistic science-fiction exploring the way gender, transition, and trans issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
     description: |-
         What will gender look like in the future?
 
@@ -154,7 +162,9 @@ future-tense-gender:
 #####
 future-tense-love:
     title: "Future//Tense: Love"
+    slug: future-tense/love
     open: true
+    short_description: "*Future//Tense: Love* is an anthology of transfuturistic science-fiction exploring the way love, relationship, and identity issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
     description: |-
         What will love look like in the future?
 
@@ -192,7 +202,9 @@ future-tense-love:
 #####
 future-tense-sex:
     title: "Future//Tense: Sex"
-    open: false
+    slug: future-tense/sex
+    open: open
+    short_description: "*Future//Tense: Sex* is an anthology of transfuturistic science-fiction exploring the way sex, intimacy, and kink may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
     description: |-
         What will sex look like in the future?
 

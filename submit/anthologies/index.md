@@ -8,7 +8,7 @@ li.closed {
     display: none;
 }
 li.closed.show {
-    display:block;
+    display: list-item;
 }
 #toggle {
     font-size: 12pt;

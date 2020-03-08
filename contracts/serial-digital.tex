@@ -3,41 +3,44 @@
 %%%%%
 % Variables to fill in on a per-contract basis
 
-\def\WorkTitle{The Title}
-\def\WorkAuthor{The Author}
-\def\WorkType{short story}
-\def\WordCount{9,123}
-\def\Publication{My Good Anthology}
-\def\Issue{ 1} % Lead with space or punctuation
-\def\Fee{1.23}
-\def\Rate{0.06}
-\def\PaymentMechanism{PayPal} % Or check, etc.
-\def\PublicationDate{January 1, 1970}
-\def\ContractNumber{1}
+\def\WorkTitle{The Title} % TODO
+\def\TheWork{the Work} % TODO pural
+\def\WorkAuthor{The Author} % TODO
+\def\WorkType{short story} % TODO confirm, olural
+\def\WordCount{980} % TODO
+\def\Publication{One Neat Anthology}
+\def\Issue{} % Lead with space or punctuation
+\def\Fee{\$24.50 USD} % TODO
+\def\Rate{\$0.025 USD}
+\def\PaymentMechanism{\emph{Payment Mechanism}} % Or check, etc.
+\def\PublicationDate{September 2, 2020} % TODO
+\def\ContractNumber{XXX} % TODO
 
-%%% Draft mode
-\usepackage{draftwatermark}
-\SetWatermarkText{DRAFT}
-\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
-\usepackage[pdftex,dvipsnames]{xcolor}
-\usepackage[colorinlistoftodos]{todonotes}
-\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
-%%% Final mode
-% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
-% \newcommand{\NB}{}
-
-\usepackage[pdftex]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{color,soul}
 
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}[1]{\null}
+
 \pagestyle{fancy}
 \fancyhf{}
-\chead{Publication contract  No. \ContractNumber\ --- \WorkTitle\ (\Publication\Issue)}
+\chead{Publication contract  No. \ContractNumber\ --- \WorkAuthor\ (\Publication\Issue)}
 \cfoot{\thepage\ of \pageref{LastPage}}
 
-\renewcommand*\rmdefault{ppl}
+\usepackage{fontspec}
+\setmainfont{Gentium Book Basic}
+\newfontfamily\HybridFamily{Ubuntu}
 
 \newdimen\longline
 \longline=\textwidth\advance\longline-4cm
@@ -57,39 +60,41 @@
 
 \vspace{0.5in}
 
-\noindent AGREEMENT between \textbf{HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Author''). The parties to this Agreement wish to publish the \WorkType\ \textbf{``\WorkTitle''} (``the Work'') in \textit{\Publication\Issue} (``the Publication'').
+\noindent AGREEMENT between {\HybridFamily HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Author''). The parties to this Agreement wish to publish the \WorkType\ \textbf{\WorkTitle} (``\TheWork'') in \textit{\Publication\Issue} (``the Publication'').
 
 \section{Rights}
 
 \paragraph{Author's rights}
 
-The Author retains all rights to the Work not granted to the Publisher below.
+The Author retains all rights to \TheWork\ not granted to the Publisher below including copyright.
 
 \paragraph{Publisher's rights}
 
-The Author grants to the Publisher first North American serial English language print and electronic publication rights\NB{Example only; not all publications will require FNASR; please see the submission call for more details.} to the Work, exclusive for six months. The Publisher does not request audiobook or film rights.
+The Author grants to the Publisher North American serial English language print and electronic publication rights to \TheWork. The Publisher does not request audiobook or film rights.
+
+\paragraph{Promotional rights}
+
+The Author grants the Publisher the right to use the Author’s name, image\NB{For anthologies with many works in them, we may remove the request for rights to an image}, and biographical material for all advertising, promotion and other marketing use of \TheWork. Upon request, the Author shall provide the Publisher with a photograph or other graphical representation of the Author and appropriate biographical material for such use.
 
 \paragraph{Breakdown of rights}
 
 \begin{itemize}
-    \item First rights means that the Publisher will be the first ones to publish the Work.
     \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
-    \item Serial rights mean that the publisher will retain the rights to publish the Work in an anthology or serial publication.
-    \item English language rights mean that the publisher will only retain the right to publish the Work in English.
-    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
-    \item Exclusive for six months means that the Publisher requests exclusive rights to publication for six months, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere or to distribute through mechanisms including but not limited to posting on a personal website.
+    \item Serial rights mean that the publisher will retain the rights to publish \TheWork\ in an anthology or serial publication.
+    \item English language rights mean that the publisher will only retain the right to publish \TheWork\ in English.
+    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Noble for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
 \end{itemize}
 
 \section{Indemnifications}
 
-The Author attests that they are the sole creator of the Work and that the Work, to the best of their knowledge:
+The Author attests that they are the sole creator of \TheWork\ and that \TheWork, to the best of their knowledge:
 
 \begin{itemize}
     \item Will not infringe on the personal rights of a third party, and
     \item Will not give rise to claims in defamation, privacy, infringement of copyright or trademark, etc.
 \end{itemize}
 
-The Author indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the publication of the Work. This includes, but is not limited to, actions involving plagiarism, fraud, and theft.
+The Author indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the publication of \TheWork. This includes, but is not limited to, actions involving plagiarism, fraud, and theft.
 
 \section{Duties}
 
@@ -98,7 +103,7 @@ The Author indemnifies and holds harmless the Publisher against any and all clai
 The Author shall:
 
 \begin{itemize}
-    \item Deliver a complete manuscript for the Work,
+    \item Deliver a complete manuscript for \TheWork,
     \item Work with the Publisher and any representatives during the pre-publication editorial process, and
     \item Promote and market their own work post-publication.
 \end{itemize}
@@ -108,34 +113,38 @@ The Author shall:
 The Publisher or its representatives shall:
 
 \begin{itemize}
-    \item Edit the Work for content,
-    \item Edit the Work for spelling and punctuation,
-    \item Edit the Work for presentation,
+    \item Edit \TheWork\ for content,
+    \item Edit \TheWork\ for spelling and punctuation,
+    \item Edit \TheWork\ for presentation,
     \item Procure cover and internal art not otherwise provided by the Author,
     \item Layout and design print and e-books,
     \item Publish the Publication for sale through print and electronically, and
     \item Promote and market the Publication on various channels, with discounts at their discretion.
 \end{itemize}
 
-\section{Copyright}
+\paragraph{Editing}
 
-The Author will be responsible for obtaining copyright for the Work. Should the Publisher provide any additional materials including but not limited to cover art, internal art, additional text such as blurbs, etc., the Publisher will retain copyright ownership of that material.
+The Publisher will make no alterations to the text of \TheWork\ or title(s) without the Author’s written approval in e-mail or hardcopy. The Author will be provided with the Publisher’s proposed version of the work prior to publication and given sufficient time to review text. The Publisher reserves the right to make minor copyediting changes to conform the style of the text to its customary form and usage.
 
 \section{Payment}
 
-\paragraph{Flat fee}
+\paragraph{Rate}
 
 The Author will be paid a flat fee at the rate of \Rate\ per word at \WordCount\ words for a total of \hl{\mbox{\Fee}}.
 
 \paragraph{Payment date}
 
-The Publisher will furnish payment to the Author upon receipt of this signed agreement via \PaymentMechanism\NB{Other payment mechanisms available.}.
+The Publisher will furnish payment to the Author upon receipt of this signed agreement.
+
+\paragraph{Mechanism}
+
+Payment will be made via \PaymentMechanism\NB{Please specify.}.
 
 \section{Publication}
 
 \paragraph{Publication date}
 
-Publication of the Publication, and thus the Work, will not take place after \PublicationDate.
+Publication of the Publication, and thus \TheWork, will not take place after \PublicationDate.
 
 \paragraph{Reasonable delay}
 
@@ -143,7 +152,7 @@ Publication may be reasonably delayed due to unforeseeable circumstances through
 
 \paragraph{Sunset}
 
-If the publication date is not met by \PublicationDate\ plus 90 days, this contract will sunset and all rights revert back to the Author.
+If the publication date is not met by \PublicationDate\ plus 30 days, this contract will sunset and all rights revert back to the Author.
 
 \section{Termination}
 
@@ -155,7 +164,7 @@ This Agreement is subject to the laws and regulations of the State of Washington
 
 \newpage
 
-When Author enters the information below and emails this contract back to Publisher, the parties agree that the contract is digitally signed\NB{A physical signature version of this contract is also available.}:
+When Author enters the information below and emails this contract back to Publisher, the parties agree that the contract is digitally signed:
 
 \begin{Form}
     \q{First Name}
@@ -170,7 +179,7 @@ When Author enters the information below and emails this contract back to Publis
 
 \noindent \textit{Publisher:}
 
-HYBRID Ink, Ltd
+{\HybridFamily HYBRID Ink, Ltd}
 
 Madison Scott-Clary --- representative of the Publisher
 

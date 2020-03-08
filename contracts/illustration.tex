@@ -5,9 +5,9 @@
 \def\WorkType{novel}
 \def\Artist{Artist}
 \def\ArtType{a cover illustration}
-\def\UpFront{\$250 USD}
-\def\AtCompletion{\$250 USD}
-\def\FlatFee{\$500 USD}
+\def\UpFront{\$XXX USD}
+\def\AtCompletion{\$YYY USD}
+\def\FlatFee{\$ZZZ USD}
 \def\PrintRoyalties{25\%}
 \def\DigitalRoyalties{50\%}
 \def\PaymentMechanism{PayPal} % Or check, etc.
@@ -16,20 +16,22 @@
 \def\ContractNumber{1}
 \def\RelatedContract{1}
 
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+
 %%% Draft mode
 \usepackage{draftwatermark}
 \SetWatermarkText{DRAFT}
 \usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
-\usepackage[pdftex,dvipsnames]{xcolor}
 \usepackage[colorinlistoftodos]{todonotes}
 \newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
 %%% Final mode
 % \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
-% \newcommand{\NB}{}
-
-\usepackage{graphicx}
-\usepackage{lastpage}
-\usepackage{fancyhdr}
+% \newcommand{\NB}[1]{\null}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -43,7 +45,19 @@
     \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
-\renewcommand*\rmdefault{ppl}
+\usepackage{fontspec}
+\setmainfont{Gentium Book Basic}
+\newfontfamily\HybridFamily{Ubuntu}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
 
 \begin{document}
 
@@ -77,9 +91,9 @@ The Artist grants rights to use the Piece as \WorkType\ to be published in conju
     \item First rights means that the Publisher will be the first ones to publish the Work.
     \item North American rights means that the publisher will retain these rights only in The United States, Mexico, and Canada.
     \item English language rights mean that the publisher will only retain the right to publish the Work in English.
-    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Nobel for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
+    \item Print and electronic rights mean that the publisher will retain the right to publish a print book, as well as an e-book via common services such as but not limited to Amazon and Barnes \& Noble for a variety of devices, such as the Kindle and Nook. The Publisher also retains the right to sell the e-book independent of services such as a file download.
     \item Exclusive for one year means that the Publisher requests exclusive rights to publication for one year, after which the publication rights will revert to non-exclusive, allowing the Author to seek subsequent publication elsewhere.
-    \item Marketing and publication use of the Piece will be limited to lower-resolution images to be used in advertisements and on digital storefronts including but not limited to Amazon and Barnes \& Nobel.
+    \item Marketing and publication use of the Piece will be limited to lower-resolution images to be used in advertisements and on digital storefronts including but not limited to Amazon and Barnes \& Noble.
 \end{itemize}
 
 \paragraph{Artist use}

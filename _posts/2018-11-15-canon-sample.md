@@ -7,8 +7,7 @@ We're fast approaching the release of Jen Durbent's *canon*, and are excited to 
 
 ### On Her Existence (2018)
 
-<div class="verse">
-Excuse me! Excuse me! Sorry to bother you while you're reading
+<div class="verse">Excuse me! Excuse me! Sorry to bother you while you're reading
 your book, and I'm sorry if it's creepy,
 but I can't help but notice that you put
 non-dairy creamer in your fairly-traded,

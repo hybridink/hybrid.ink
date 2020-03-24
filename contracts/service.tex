@@ -1,0 +1,244 @@
+\documentclass[12pt,letterpaper,oneside]{article}
+
+%%%%%
+% Variables to fill in on a per-contract basis
+
+\def\WorkTitle{The Title} % TODO
+\def\TheWork{the Work} % TODO pural
+\def\WorkAuthor{The Author} % TODO
+\def\TheEditor{The Editor} % TODO
+\def\ServiceLevel{The Service} % TODO
+\def\WorkType{short story} % TODO confirm, olural
+\def\WordCount{980} % TODO
+\def\Publication{One Neat Anthology}
+\def\Issue{} % Lead with space or punctuation
+\def\Fee{\$24.50 USD} % TODO
+\def\Rate{\$0.025 USD}
+\def\PaymentMechanism{\emph{Payment Mechanism}} % Or check, etc.
+\def\PublicationDate{September 2, 2020} % TODO
+\def\ContractNumber{XXX} % TODO
+\def\EditorContractNumber{YYY} % TODO
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}[1]{\null}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Service contract  No. \ContractNumber\ --- \WorkAuthor\ (\ServiceLevel)}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\usepackage{fontspec}
+\setmainfont{Gentium Book Basic}
+\newfontfamily\HybridFamily{Ubuntu}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
+\begin{document}
+
+\begin{center}
+    \noindent\includegraphics[width=3.5in]{logo}
+\end{center}
+
+\vspace{0.5in}
+
+\noindent AGREEMENT between \TheEditor\ (``the Service Provider'') working on behalf of {\HybridFamily HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Author''). The parties to this Agreement wish to establish a service agreement regarding the \WorkType\ \textbf{\WorkTitle} (``\TheWork'').
+
+\section{Service to be provided}
+
+\paragraph{Description of service}
+
+The Service Provider agrees to provide the following services to the Author on behalf of the Publisher:\NB{Comment out which services will \emph{not} be offered.}
+
+\begin{description}
+  \item[Proofreading] Broad-stroke commentary addressing publication-readiness of \TheWork
+  \item[Developmental editing] Addressing issues of plot structure and soundness, pacing, and research
+  \item[Copy editing] Addressing issues of spelling and grammar
+  \item[Line editing] Addressing issues of plot flow, theme, word-choice, spelling, and grammar
+  \item[Typesetting] Built a print-ready PDF to be sent to a printer/distributor
+  \item[E-book creation] Build a distribution-ready e-book in common formats to be uploaded for distribution and sale
+\end{description}
+
+\section{Rights}
+
+\paragraph{Author's rights}
+
+The Author retains all rights to \TheWork.
+
+\paragraph{Publisher's rights}
+
+The Publisher requests no rights.
+
+\paragraph{Service Provider's rights}
+
+The Service Provider requests no rights
+
+\section{Indemnifications}
+
+The Author indemnifies and holds harmless the Publisher and the Service Provider against any and all claims, actions, demands, etc. arising from the services specified in this Agreement relating to \TheWork. This includes, but is not limited to, actions involving plagiarism, fraud, and theft, but does not include non-fulfilment or breach of this Agreement.
+
+\section{Duties}
+
+\paragraph{Author duties}
+
+The Author shall:
+
+\begin{itemize}
+    \item Deliver a manuscript for \TheWork,
+    \item Deliver 50\% payment to the Publisher to be held in escrow upon signature of this Agreement, and
+    \item Deliver the remaining 50\% payment to the Publisher upon completion of the service specified in this Agreement.
+\end{itemize}
+
+\paragraph{Publisher duties}
+
+The Publisher or its representatives shall:
+
+\begin{itemize}
+    \item Provide the Author with a quote for labor,
+    \item Maintain open and clear communication between the Service Provider and the Author,
+    \item Accept and hold in escrow the first 50\% payment,
+    \item Accept the remaining 50\% payment upon completion of the services specified in this Agreement, and
+    \item Disburse payment to the Service Provider per the terms stipulated in their separate Agreement.
+\end{itemize}
+
+\paragraph{Service Provider duties}
+
+The Service Provider shall:
+
+\begin{itemize}
+  \item Provide an estimated time-frame for completion of the services specified in this Agreement,
+  \item Communicate with the Author in a timely, polite, and professional manner, including the Publisher in communications, and
+  \item Work in confidence, providing no details
+\end{itemize}
+
+\section{Non-disclosure agreement}
+
+\paragraph{Definition of confidential information}
+
+For the purposes of this Agreement, ``Confidential Information'' shall be taken to mean the content of a manuscript, including the text itself, plot, themes, and any changes made during the providing of the services mentioned in this Agreement.
+
+\paragraph{Exclusions from confidential information}
+
+The existence of this Agreement and the relationship between the Author, the Service Provider, and the Publisher shall not be confidential. Additionally, information subpoenaed from any party to this agreement by law enforcement must be provided to the full extent of the law.
+
+\paragraph{Obligations of the Publisher and the Service Provider}
+
+The Publisher and the Service Provider shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Author. The Publisher and the Service Provider shall not, without the prior written approval of the Author, use for The Publisher and the Service Provider’s own benefit, publish, copy, or otherwise disclose to others, or permit the use by others for their benefit or to the detriment of the Author, any Confidential Information. The Publisher and the Service Provider shall return to the Author any and all records, notes, and other written, printed, or tangible materials in their possession pertaining to Confidential Information immediately if the Author requests it in writing.
+
+\paragraph{Duration}
+
+Confidentiality shall be maintained perpetually.
+
+\section{Payment}
+
+\paragraph{Rate}
+
+The rate schedule for services is as follows:
+
+\vspace{1ex}
+
+\begin{tabular}{| r | p{4in} |}
+  \hline
+  Developmental editing & \$0.007 USD per word, minimum \$35.00 USD per contract \\
+  \hline
+  Line editing & \$0.007 USD per word, minimum \$35.00 USD per contract \\
+  \hline
+  Copy editing & \$0.017 USD per word, minimum of \$50.00 USD per contract \\
+  \hline
+  Proofreading & \$0.005 USD per word, minimum of \$25.00 USD per contract \\
+  \hline
+  Typesetting and book design & \$200.00 USD plus \$2.00 USD per 1,000 words, with additional costs for images, figures, tables, and advanced typsetting. \\
+  \hline
+  E-book creation & \$50.00 USD plus \$1.00 USD per 1,000 words, with additionall costs for images, figures, tables, and advanced formatting. \\
+  \hline
+\end{tabular}
+
+With a wordcount of \WordCount\ and the services selected in this Agreement, the Author will be charged a total of \hl{\mbox{\Fee}}.
+
+\paragraph{Payment date}
+
+50\% of the fee will be paid to the Publisher upon signing of this Agreement and be held in escrow, and 50\% upon completion.
+
+\paragraph{Mechanism}
+
+Payment will be made via \PaymentMechanism\NB{Please specify.}.
+
+\section{Severability}
+
+If a court finds any provision of this Agreement invalid or unenforceable, the remainder of this Agreement shall be interpreted so as to best to effect the intent of the parties.
+
+\section{Integration}
+
+\paragraph{Regarding \TheWork}
+
+This Agreement expresses the complete understanding of the parties with respect to the subject matter and supersedes all prior proposals, agreements, representations, and understandings.
+
+\paragraph{Other agreements}
+
+There exists in force an agreement between the Publisher and the Service Provider (contract No. \EditorContractNumber) governing acceptable terms. Should that contract be terminated, the Author will be informed and a decision surrounding the services provided in this Agreement will be made via a written amendment or termination.\NB{E.g: should the editor have to terminate their agreement for whatever reason, the Author and the Publisher will work out whether to terminate this Agreement or pass the work onto someone else.}
+
+\section{Termination}
+
+\paragraph{Mechanism}
+
+Other than the mechanisms outlined above, this Agreement may only be terminated by written agreement signed by both the Author and the Publisher.
+
+\paragraph{Funds in escrow}
+
+Should this Agreement be terminated while the Publisher holds payment in escrow, 100\% of that payment will be refunded to the Author minus applicable processing fees.\NB{Such as PayPal fees, etc.}
+
+\paragraph{Amendment}
+
+This Agreement may not be amended except in a writing signed by both parties.
+
+\section{Additional regulations}
+
+This Agreement is subject to the laws and regulations of the State of Washington.
+
+\newpage
+
+When Author enters the information below and emails this Agreement back to Publisher, the parties agree that the contract is digitally signed:
+
+\begin{Form}
+    \q{First Name}
+    \q{Last Name}
+    \q{Today's Date}
+    \q{Email}
+\end{Form}
+
+\hrule
+
+\vspace{12pt}
+
+\noindent \textit{Publisher:}
+
+{\HybridFamily HYBRID Ink, Ltd}
+
+Madison Scott-Clary --- representative of the Publisher
+
+6811 Commercial Ave.
+
+Everett, WA 98203
+
+\end{document}

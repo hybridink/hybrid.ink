@@ -1,0 +1,170 @@
+\documentclass[12pt,letterpaper,oneside]{article}
+
+%%%%%
+% Variables to fill in on a per-contract basis
+
+\def\WorkTitle{The Title} % TODO
+\def\TheWork{the Work} % TODO pural
+\def\WorkAuthor{The Author} % TODO
+\def\WorkType{short story} % TODO confirm, olural
+\def\WordCount{980} % TODO
+\def\Publication{One Neat Anthology}
+\def\Issue{} % Lead with space or punctuation
+\def\Fee{\$24.50 USD} % TODO
+\def\Rate{\$0.025 USD}
+\def\PaymentMechanism{\emph{Payment Mechanism}} % Or check, etc.
+\def\PublicationDate{September 2, 2020} % TODO
+\def\ContractNumber{XXX} % TODO
+
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+
+%%% Draft mode
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT}
+\usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
+\usepackage[colorinlistoftodos]{todonotes}
+\newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
+%%% Final mode
+% \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
+% \newcommand{\NB}[1]{\null}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{Contract editor contract  No. \ContractNumber}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\usepackage{fontspec}
+\setmainfont{Gentium Book Basic}
+\newfontfamily\HybridFamily{Ubuntu}
+
+\newdimen\longline
+\longline=\textwidth\advance\longline-4cm
+
+\def\LayoutTextField#1#2{#2} % override default in hyperref
+
+\def\lbl#1{\hbox to 4cm{#1\dotfill\strut}}%
+\def\labelline#1#2{\lbl{#1}\vbox{\hbox{\TextField[name=#1,width=#2]{\null}}\kern2pt\hrule}}
+
+\def\q#1{\hbox to \hsize{\labelline{#1}{\longline}}\vskip1.4ex}
+
+\begin{document}
+
+\begin{center}
+    \noindent\includegraphics[width=3.5in]{logo}
+\end{center}
+
+\vspace{0.5in}
+
+\noindent AGREEMENT between {\HybridFamily HYBRID Ink, LLC} (``the Publisher'') and \textbf{\WorkAuthor} (``the Editor''). The parties to this Agreement wish to establish a business relationship with the Editor providing contract labor for the Publisher.
+
+\section{Duties}
+
+\paragraph{Editor duties}
+
+The Editor shall:
+
+\begin{itemize}
+    \item Choose editorial projects with which to provide, as requested\NB{Specify which types this contract will govern}:
+    \begin{itemize}
+      \item Developmental editing,
+      \item Line editing,
+      \item Copy editing, and
+      \item Proofreading.
+    \end{itemize}
+    \item Edit the projects according to the level of service requested,
+    \item Work to complete projects in a timely fashion,
+    \item Maintain strict confidentiality surrounding the projects,
+    \item Communicate with the client in a polite and professional manner, and
+    \item Ensure communications between client and editor include the publisher for record keeping.
+\end{itemize}
+
+\paragraph{Publisher duties}
+
+The Publisher or its representatives shall:
+
+\begin{itemize}
+    \item Manage professional contacts,
+    \item Promote the Editor's services,
+    \item Handle client invoicing, and
+    \item Disburse payment of fees to the Editor.
+\end{itemize}
+
+\section{Payment}
+
+\paragraph{Rate}
+
+The Editor will be paid a rate of 80\% of the total payment received from the client. Client rates will be determined on an individual basis, with the rough guide as follows:
+
+\begin{tabular}{| r | l |}
+  \hline
+  Developmental editing & \$0.007 USD per word, minimum \$35.00 USD per contract \\
+  \hline
+  Line editing & \$0.007 USD per word, minimum \$35.00 USD per contract \\
+  \hline
+  Copy editing & \$0.017 USD per word, minimum of \$50.00 USD per contract \\
+  \hline
+  Proofreading & \$0.005 USD per word, minimum of \$25.00 USD per contract \\
+  \hline
+\end{tabular}
+
+\paragraph{Payment date}
+
+The Publisher will furnish payment to the Editor upon completion of the project.
+
+\paragraph{Mechanism}
+
+Payment will be made via \PaymentMechanism\NB{Please specify.}.
+
+\section{Schedule}
+
+\paragraph{Completion date}
+
+Completion of editorial projects will be specified in the editorial contract governing that project.
+
+\paragraph{Reasonable delay}
+
+Completion of editorial projects may be reasonably delayed due to unforeseeable circumstances through no fault of the Publisher or the Editor such as, but not limited to, criminal action, labor disputes, etc.
+
+\section{Indemnifications}
+
+The Editor indemnifies and holds harmless the Publisher against any and all claims, actions, demands, etc. arising from the execution of editorial contracts undertaken in their line of work.
+
+\section{Termination}
+
+Other than the mechanisms outlined above, this Agreement may only be terminated by written agreement signed by both the Author and the Publisher.
+
+\section{Additional regulations}
+
+This Agreement is subject to the laws and regulations of the State of Washington.
+
+\newpage
+
+When the Editor enters the information below and emails this contract back to Publisher, the parties agree that the contract is digitally signed:
+
+\begin{Form}
+    \q{First Name}
+    \q{Last Name}
+    \q{Today's Date}
+    \q{Email}
+\end{Form}
+
+\hrule
+
+\vspace{12pt}
+
+\noindent \textit{Publisher:}
+
+{\HybridFamily HYBRID Ink, Ltd}
+
+Madison Scott-Clary --- representative of the Publisher
+
+6811 Commercial Ave.
+
+Everett, WA 98203
+
+\end{document}

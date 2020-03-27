@@ -12,6 +12,11 @@ Madison is a writer, editor, and software developer. After studying music compos
 She lives in the Pacific Northwest with her two dogs, a very soft cat, and her husband. You can find her writing at [makyo.ink](https://makyo.ink).
 {: class="clearfix" }
 
+## Vincenzo Pasquarella
+{: id="Vincenzo" }
+
+Vincenzo Pasquarella is a young writer and editor from Central Florida. He has been writing since his mid-teens, and enjoys writing and reading all types of stories. His novella, *The Phantom Janitor*, was published by Thurston Howl Publications, and he has appeared in their anthology *Slashers*. You can find some of his work on [Wattpad](https://www.wattpad.com/user/vpasquarella).
+
 <div class="announcement">
     Interested in helping on the editorial side?  Hit us up over email/twitter!
 </div>

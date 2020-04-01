@@ -10,20 +10,22 @@
 \def\PublicationDate{January 1, 1970}
 \def\ContractNumber{1}
 
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{color,soul}
+
 %%% Draft mode
 \usepackage{draftwatermark}
 \SetWatermarkText{DRAFT}
 \usepackage[top=1.25in, bottom=1.25in, right=2in, left=1in, marginparwidth=1.5in]{geometry}
-\usepackage[pdftex,dvipsnames]{xcolor}
 \usepackage[colorinlistoftodos]{todonotes}
 \newcommand{\NB}[1]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue]{#1}}
 %%% Final mode
 % \usepackage[top=1.25in, bottom=1.25in, right=1in, left=1in]{geometry}
 % \newcommand{\NB}{}
-
-\usepackage{graphicx}
-\usepackage{lastpage}
-\usepackage{fancyhdr}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -37,7 +39,9 @@
     \cfoot{\thepage\ of \pageref{LastPage}}
 }
 
-\renewcommand*\rmdefault{ppl}
+\usepackage{fontspec}
+\setmainfont{Gentium Book Basic}
+\newfontfamily\HybridFamily{Ubuntu}
 
 \begin{document}
 
@@ -62,6 +66,10 @@ The Author retains all rights to the Work not granted to the Publisher below.
 \paragraph{Publisher's rights}
 
 The Author grants to the Publisher first North American English language print and electronic publication rights to the Work, exclusive for one year. The Publisher does not request audiobook or film rights.
+
+\paragraph{Promotional rights}
+
+The Author grants the Publisher the right to use the Author’s name, image, and biographical material for all advertising, promotion, and other marketing use of \TheWork. Upon request, the Author shall provide the Publisher with a photograph or other graphical representation of the Author and appropriate biographical material for such use.
 
 \paragraph{Breakdown of rights}
 
@@ -109,6 +117,10 @@ The Publisher or its representatives shall:
     \item Publish the work for sale through print and electronically, and
     \item Promote and market the Work on various channels, with discounts at their discretion.
 \end{itemize}
+
+\paragraph{Editing}
+
+The Publisher will make no alterations to the text of \TheWork\ or title(s) without the Author’s written approval in e-mail or hardcopy. The Author will be provided with the Publisher’s proposed version of the work prior to publication and given sufficient time to review text. The Publisher reserves the right to make minor copyediting changes to conform the style of the text to its customary form and usage.
 
 \section{Copyright}
 

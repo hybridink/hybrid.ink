@@ -12,6 +12,6 @@ title: Submissions
 Type | Status
 -----|-------
 [Anthologies](anthologies) | ***Open***{: class="open" }
-[Fiction submissions](fiction) | Short form: ***Open***{: class="open" }<br />Long form: ***Closed***{: class="closed" }
-[Creative non-fiction submissions](non-fiction) | Short form: ***Open***{: class="open" }<br />Long form: ***Closed***{: class="closed" }
-[Poetry submissions](poetry) | ***Open***{: class="open" }
+[Fiction submissions](fiction) | Short form: ***Closed***{: class="closed" }<br />Long form: ***Closed***{: class="closed" }
+[Creative non-fiction submissions](non-fiction) | Short form: ***Closed***{: class="closed" }<br />Long form: ***Closed***{: class="closed" }
+[Poetry submissions](poetry) | ***Closed***{: class="closed" }

@@ -10,7 +10,7 @@ title: Fiction Submissions
 Long form (novellas to novels) --- ***Closed***{: class="closed" }
 :   {{site.brand}} is not currently accepting novel queries.
 
-Short form (short story/novelette collections) --- ***Open***{: class="open" }
+Short form (short story/novelette collections) --- ***Closed***{: class="closed" }
 :   Short story collections are now being considered. Please specify the unifying theme of the collection, provide a brief synopsis of each story, and the licensing status of each story.
 
 Content restrictions

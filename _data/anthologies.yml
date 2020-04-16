@@ -69,13 +69,13 @@ acethetic:
     schedule:
         open: December 1, 2019
         close: March 1, 2020
-        read: Within four weeks
+        read: Within eight weeks
         available: within six months of contracts
 #####
 genderful:
     title: Genderful
     slug: genderful
-    open: true
+    open: false
     short_description: "*Genderful* is a furry fiction anthology in two parts which aims to explore how furry and gender interact."
     description: |-
         As furries, we base large swaths of our identity around species. We search for what fits, we let our species choose us, and find ways to be happy as such.
@@ -117,15 +117,17 @@ genderful:
     schedule:
         open: December 1, 2019
         close: April 15, 2020
-        read: Within four weeks
+        read: Within six weeks
         available: within six months of contracts
 #####
 future-tense-gender:
     title: "Future//Tense: Gender"
     slug: future-tense/gender
-    open: true
-    short_description: "*Future//Tense: Gender* is an anthology of transfuturistic science-fiction exploring the way gender, transition, and trans issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
+    open: false
+    short_description: "*Future//Tense: Gender* is an anthology of transfuturistic science-fiction exploring the way gender, transition, and trans issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars. **Future//Tense anthologies are currently on hold.**"
     description: |-
+        **Future//Tense anthologies are currently on hold due to the economic effects of the COVID-19 pandemic.**
+
         What will gender look like in the future?
 
         What will change about transition?
@@ -157,15 +159,17 @@ future-tense-gender:
     schedule:
         open: January 1, 2020
         close: April 1, 2020
-        read: Within four weeks
+        read: ~~Within four weeks~~ On hold
         available: within six months of contracts
 #####
 future-tense-love:
     title: "Future//Tense: Love"
     slug: future-tense/love
     open: true
-    short_description: "*Future//Tense: Love* is an anthology of transfuturistic science-fiction exploring the way love, relationship, and identity issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
+    short_description: "*Future//Tense: Love* is an anthology of transfuturistic science-fiction exploring the way love, relationship, and identity issues may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars. **Future//Tense anthologies are currently on hold.**"
     description: |-
+        **Future//Tense anthologies are currently on hold due to the economic effects of the COVID-19 pandemic.**
+
         What will love look like in the future?
 
         What will change about relationships?
@@ -197,15 +201,17 @@ future-tense-love:
     schedule:
         open: February 1, 2020
         close: May 1, 2020
-        read: Within four weeks
+        read: ~~Within four weeks~~ On hold
         available: within six months of contracts
 #####
 future-tense-sex:
     title: "Future//Tense: Sex"
     slug: future-tense/sex
     open: open
-    short_description: "*Future//Tense: Sex* is an anthology of transfuturistic science-fiction exploring the way sex, intimacy, and kink may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars."
+    short_description: "*Future//Tense: Sex* is an anthology of transfuturistic science-fiction exploring the way sex, intimacy, and kink may change over time, from the near future to far, on Earth or other planets, in humans or those from the stars. **Future//Tense anthologies are currently on hold.**"
     description: |-
+        **Future//Tense anthologies are currently on hold due to the economic effects of the COVID-19 pandemic.**
+
         What will sex look like in the future?
 
         What will change about physical interaction?
@@ -237,5 +243,5 @@ future-tense-sex:
     schedule:
         open: March 1, 2020
         close: June 1, 2020
-        read: Within four weeks
+        read: ~~Within four weeks~~ On hold
         available: within six months of contracts

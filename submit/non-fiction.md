@@ -10,7 +10,7 @@ title: Creative Non-Fiction Submissions
 Long form --- ***Closed***{: class="closed" }
 :   {{site.brand}} is not currently accepting long-form non-fiction queries.
 
-Short form (essay collections) --- ***Open***{: class="closed" }
+Short form (essay collections) --- ***Closed***{: class="closed" }
 :   Essay and letter collections may be considered, as well, and in that case, please specify the unifying theme of the collection, provide a brief synopsis of each piece, and the licensing status of each essay or letter.
 
 Content restrictions

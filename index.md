@@ -1,5 +1,6 @@
 ---
 layout: default
+title: An update from Hybrid
 ---
 
 ## An update from {{site.brand}}
